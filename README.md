@@ -1,17 +1,24 @@
-# News Situation Reports
+<p align="center">
+  <img src="assets/aunoo-logo.svg" alt="Aunoo" width="140">
+</p>
 
-Situation Reports are Aunoo Intelligence's up-to-date situational awareness on breaking AI and technology events. Aunoo Intelligence is the research and advisory team at Aunoo.
+<h1 align="center">Aunoo Intelligence — Situation Reports</h1>
 
-Each report is built on Aunoo news-intelligence and ships as a SITREP plus distribution collateral (PDF bulletins, a web page, a LinkedIn post, and a social cover).
+<p align="center"><em>Up-to-date situational awareness on breaking AI and technology events.</em></p>
 
-## Layout
+---
 
-Each report lives in its own folder under `reports/`, named by event. The current example is the US export-control suspension of Anthropic's Fable 5 and Mythos 5.
+Situation Reports are produced by **Aunoo Intelligence**, the research and advisory team at Aunoo. Each report gives a concise, sourced read on a developing event: what happened, why it matters, what to watch, and where the evidence points.
 
-## Building the PDFs
+## Latest
 
-```bash
-python -c "from weasyprint import HTML; HTML('bulletin.html').write_pdf('bulletin.pdf')"
-```
+**US export-control suspension of Anthropic's Fable 5 and Mythos 5** — 14 June 2026
+[Read the report »](reports/2026-06-anthropic-fable-mythos-export-ban/)
 
-Requires `weasyprint`. Reports are compiled from open-source reporting and should be checked against primary sources before use.
+## Browse
+
+All reports live under [`reports/`](reports/), one folder per event. Each includes the situation report, a shareable bulletin, and a web version.
+
+---
+
+Reports are compiled from open-source reporting and should be verified against primary sources before use in decision-making. © Aunoo.
