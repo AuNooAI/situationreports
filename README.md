@@ -19,6 +19,15 @@ Situation Reports are produced by **Aunoo Intelligence**, the research and advis
 
 All reports live under [`reports/`](reports/), one folder per event. Each includes the situation report, a shareable bulletin, and a web version.
 
+## About Aunoo
+
+Aunoo builds news-intelligence tools that help people stay ahead of fast-moving events.
+
+- **Website** — [aunoo.ai](https://aunoo.ai)
+- **Free SaaS** — our news-intelligence platform, free to use at [aunoo.ai](https://aunoo.ai)
+- **Free MCP** — connect Aunoo to your own AI agents at [agentic.aunoo.ai](https://agentic.aunoo.ai)
+- **Research & advisory** — [research@aunoo.ai](mailto:research@aunoo.ai)
+
 ---
 
 Reports are compiled from open-source reporting and should be verified against primary sources before use in decision-making. © Aunoo.
