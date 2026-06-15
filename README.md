@@ -24,7 +24,7 @@ All reports live under [`reports/`](reports/), one folder per event. Each includ
 Aunoo builds news-intelligence tools that help people stay ahead of fast-moving events.
 
 - **Website** — [aunoo.ai](https://aunoo.ai)
-- **Free SaaS** — our news-intelligence platform, free to use at [aunoo.ai](https://aunoo.ai)
+- **Free SaaS** — our news-intelligence platform, free to use at [aunoo.ai](https://saas.aunoo.ai)
 - **Free MCP** — connect Aunoo to your own AI agents at [agentic.aunoo.ai](https://agentic.aunoo.ai)
 - **Research & advisory** — [research@aunoo.ai](mailto:research@aunoo.ai)
 
