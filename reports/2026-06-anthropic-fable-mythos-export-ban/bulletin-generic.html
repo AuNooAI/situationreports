@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 16mm 16mm 16mm;
+    @bottom-left { content: "Aunoo News-Intelligence"; font-size: 7.5pt; color: #9a8a95; }
+    @bottom-right { content: "Page " counter(page) " of " counter(pages); font-size: 7.5pt; color: #9a8a95; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #211b24; font-size: 9.7pt; line-height: 1.5; margin: 0; }
+  h1, h2 { color: #1c151f; }
+  p { margin: 6px 0; }
+  ul { margin: 6px 0; padding-left: 18px; }
+  li { margin: 4px 0; }
+  b { color: #1c151f; }
+
+  /* masthead */
+  .mast { border-bottom: 3px solid #ce5e9c; padding-bottom: 11px; margin-bottom: 4px; width: 100%; }
+  .mast td { border: none; padding: 0; vertical-align: middle; }
+  .logo { height: 34px; }
+  .brand { font-size: 15pt; font-weight: 700; letter-spacing: .5px; line-height: 1.05; }
+  .brand small { display: block; font-size: 7.5pt; font-weight: 400; color: #8a7a85; letter-spacing: 2px; text-transform: uppercase; }
+  .mhead-r { text-align: right; font-size: 7.5pt; color: #8a7a85; line-height: 1.7; }
+  .tagpill { display: inline-block; background: #ce5e9c; color: #fff; font-size: 7.5pt; font-weight: 700; letter-spacing: 1px; padding: 2px 8px; border-radius: 3px; }
+
+  .doctitle { font-size: 16.5pt; font-weight: 700; line-height: 1.2; margin: 15px 0 4px; }
+  .docmeta { font-size: 8.5pt; color: #6f5f6a; margin-bottom: 8px; }
+  .docmeta b { color: #3f333b; }
+  .audience { display: inline-block; background: #faf0f6; border: 1px solid #eccfe0; color: #a23d77; font-weight: 600; font-size: 8.5pt; padding: 3px 10px; border-radius: 4px; margin-bottom: 12px; }
+
+  .bluf { background: #faf0f6; border-left: 4px solid #ce5e9c; padding: 11px 14px; border-radius: 0 6px 6px 0; margin-bottom: 14px; }
+  .bluf .h { font-size: 8pt; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #a23d77; margin-bottom: 5px; }
+
+  h2.sec { font-size: 11pt; margin: 16px 0 6px; padding-bottom: 4px; border-bottom: 1px solid #e7dbe3; }
+
+  /* generic data table */
+  table.data { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 8.9pt; }
+  table.data th { background: #2a1f2e; color: #fff; text-align: left; padding: 6px 9px; font-weight: 600; }
+  table.data td { border-bottom: 1px solid #ece2e8; padding: 6px 9px; vertical-align: top; }
+  table.data.kf td:first-child { font-weight: 700; color: #5a4a54; width: 30%; }
+  table.data .sub { color: #7a6a74; font-weight: 400; font-size: 8pt; }
+
+  /* two-column card tables (pagination-safe, no flex) */
+  table.cols { width: 100%; border-collapse: separate; border-spacing: 0; margin: 9px 0; }
+  table.cols td { vertical-align: top; }
+  table.cols td.gap { width: 10px; padding: 0; }
+  .card { border-radius: 7px; padding: 9px 11px; }
+  .card .lbl { font-size: 7pt; text-transform: uppercase; letter-spacing: .6px; font-weight: 700; margin-bottom: 3px; }
+  .card .hd { font-size: 9.3pt; font-weight: 700; color: #1c151f; margin-bottom: 3px; }
+  .card .bd { font-size: 8.1pt; color: #5a4a54; line-height: 1.42; }
+  .card.opt { background: #ecfdf5; border: 1px solid #6ee7b7; }
+  .card.opt .lbl { color: #059669; }
+  .card.pes { background: #fef2f2; border: 1px solid #fca5a5; }
+  .card.pes .lbl { color: #b91c1c; }
+  .card.pink { background: #fbf6f9; border: 1px solid #eccfe0; border-left: 3px solid #ce5e9c; }
+  .card.pink .lbl { color: #a23d77; }
+
+  .callout { background: #fff8e6; border: 1px solid #f4dca0; border-radius: 6px; padding: 10px 13px; margin: 12px 0; font-size: 8.8pt; }
+  .callout .h { font-weight: 700; color: #9a6a00; font-size: 8pt; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 4px; }
+  .banner { background: #ce5e9c; color: #fff; border-radius: 7px; padding: 9px 13px; margin: 8px 0; font-size: 9pt; }
+  .banner b { color: #fff; }
+
+  ol.refs { font-size: 7.9pt; color: #5a4a54; padding-left: 18px; margin: 8px 0; }
+  ol.refs li { margin: 3px 0; line-height: 1.4; }
+  ol.refs .src { color: #a23d77; font-weight: 600; }
+  ol.refs .url { color: #8a7a85; word-break: break-all; }
+
+  .foot { margin-top: 16px; padding-top: 10px; border-top: 1px solid #e7dbe3; font-size: 7.5pt; color: #8a7a85; }
+</style>
+</head>
+<body>
+
+  <table class="mast"><tr>
+    <td style="width:60%">
+      <table><tr>
+        <td style="width:46px">
+          <svg class="logo" viewBox="0 0 151.69 77.26" xmlns="http://www.w3.org/2000/svg">
+            <path fill="#1c151f" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+            <path fill="#1c151f" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+            <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
+          </svg>
+        </td>
+        <td><div class="brand">AUNOO<small>News-Intelligence</small></div></td>
+      </tr></table>
+    </td>
+    <td class="mhead-r">
+      <span class="tagpill">SITUATION BULLETIN</span><br>
+      SB-2026-0614 · OSINT<br>
+      As of 14 June 2026, 20:00 UTC
+    </td>
+  </tr></table>
+
+  <div class="doctitle">US Government Export-Control Suspension of Anthropic's Fable&nbsp;5&nbsp;/&nbsp;Mythos&nbsp;5</div>
+  <div class="docmeta"><b>Topic:</b> AI &amp; Machine Learning &nbsp;·&nbsp; <b>Basis:</b> primary source + balanced multi-region corroboration via Aunoo</div>
+  <div class="audience">FOR AUNOO CLIENTS</div>
+
+  <div class="bluf">
+    <div class="h">Bottom line up front</div>
+    On <b>Friday, 12 June 2026 (directive timestamped 5:21&nbsp;p.m.&nbsp;ET)</b>, the US Commerce Department, citing national-security authorities, ordered Anthropic to suspend all access to its Fable&nbsp;5 and Mythos&nbsp;5 models for any foreign national worldwide, including Anthropic's own foreign-born employees. Unable to cleanly partition access, Anthropic disabled both models for every customer, US citizens included. All other Claude models remain available. This is the <b>first US export-control action aimed at a specific AI model rather than chips or hardware</b>. A jailbreak of Fable&nbsp;5 had been publicly demonstrated by an independent red-teamer the day before; the government cited a jailbreak but released no specifics, so the link is reported sequence, not confirmed cause. Anthropic calls the order a "misunderstanding" and disputes the severity of the flaw.
+  </div>
+
+  <div style="background:#eef4ff;border-left:4px solid #2563eb;border-radius:0 6px 6px 0;padding:9px 13px;margin:0 0 14px;font-size:8.7pt">
+    <b style="color:#1e40af">Latest — 14 Jun:</b> Anthropic has sent senior technical staff to Washington and held virtual meetings with White House officials since Friday to resolve the dispute; both sides say they want a resolution (Axios, single-source). This points toward restoration rather than escalation.
+  </div>
+
+  <h2 class="sec">What happened</h2>
+  <ul>
+    <li>Anthropic released <b>Fable&nbsp;5</b> (public) and <b>Mythos&nbsp;5</b> (trusted partners only) on <b>Tuesday, 9 June 2026</b>. The two are the same underlying model split by safety classifiers; on high-risk queries Fable&nbsp;5 hands off to a weaker model. Anthropic said pre-launch that testing found no universal jailbreaks.</li>
+    <li><b>The jailbreak was demonstrated publicly, before the order.</b> On 10–11 June, red-teamer "Pliny the Liberator" bypassed Fable&nbsp;5's classifiers, published working x86 stack-exploit and chemical-synthesis output, and leaked the model's ~120,000-character system prompt.</li>
+    <li><b>Cause: cited, not confirmed.</b> The government cited a "jailbreak" but gave no specifics and did not name the public demonstration, so the link is inferred. The Wall Street Journal separately reports the trigger was talks between Amazon's CEO and US officials.</li>
+    <li><b>Net effect:</b> an abrupt, global blackout of both models. Domestic US users lost access as collateral, since compliance required a full shutdown.</li>
+  </ul>
+
+  <h2 class="sec">Key facts at a glance</h2>
+  <table class="data kf">
+    <tr><td>Models affected</td><td>Fable 5 &amp; Mythos 5 <span class="sub">(most advanced tier)</span></td></tr>
+    <tr><td>Still available</td><td>All other Anthropic / Claude models</td></tr>
+    <tr><td>Issued by</td><td>US Commerce Department <span class="sub">(national-security / export-control authority)</span></td></tr>
+    <tr><td>Scope</td><td>All foreign nationals worldwide, incl. Anthropic's foreign-born staff <span class="sub">(de facto global shutdown)</span></td></tr>
+    <tr><td>Stated cause</td><td>Cited "jailbreak", no specifics; matching public demo by "Pliny the Liberator" (10–11 Jun), link inferred. WSJ separately cites Amazon-CEO talks</td></tr>
+    <tr><td>Anthropic stance</td><td>"Misunderstanding"; flaw said to be minor and present in rivals (e.g. GPT-5.5); working to restore access</td></tr>
+  </table>
+  <div class="banner"><b>Precedent:</b> first US export control to target a specific AI model, not the chips or compute behind it, and the first frontier release revoked within days of launch.</div>
+
+  <h2 class="sec">How it unfolded</h2>
+  <table class="data">
+    <tr><th style="width:16%">When</th><th>Event</th></tr>
+    <tr><td>Mar–Apr 2026</td><td>Defense Dept. designates Anthropic a "supply-chain risk"; a court blocks an earlier ban even as officials urge banks to test Mythos for cyber defense</td></tr>
+    <tr><td>Tue 9 Jun</td><td>Anthropic releases Fable 5 (public) and Mythos 5 (partners only)</td></tr>
+    <tr><td>10–11 Jun</td><td>Red-teamer "Pliny the Liberator" publicly jailbreaks Fable 5; posts working exploit and synthesis output; leaks the ~120k-character system prompt</td></tr>
+    <tr><td>11–12 Jun</td><td>Reported 90-minute ultimatum; WSJ ties the crackdown to talks between Amazon's CEO and US officials (Amazon is a major Anthropic investor)</td></tr>
+    <tr><td>Fri 12 Jun · 5:21pm ET</td><td>Commerce issues the export-control directive; Anthropic disables both models that night</td></tr>
+    <tr><td>Sat 14 Jun</td><td>Anthropic sends senior technical staff to Washington for talks with the White House; both sides say they want to resolve the dispute (Axios, single-source)</td></tr>
+  </table>
+
+  <h2 class="sec">Significance — change in posture</h2>
+  <p>Prior US–Anthropic friction (the March supply-chain designation, the April court ruling, and the parallel push to have banks test Mythos for cyber defense) fell within routine regulatory and procurement disputes. This directive is different in kind: the first US measure to restrict a specific trained model rather than the chips and compute behind it, and the first case of a frontier model withdrawn within days of release.</p>
+  <ul>
+    <li><b>Scope of control.</b> Earlier export controls targeted hardware inputs (advanced chips, fabrication equipment). This directive targets the model itself. The range of what can be restricted is wider, and the enforcement window is shorter: a same-day order rather than a multi-month rulemaking.</li>
+    <li><b>Deployment risk.</b> A public frontier release can be reversed at short notice. Providers face a shorter effective planning horizon; downstream users face removal of capability they have built on.</li>
+    <li><b>Sovereignty pressure.</b> Once one government can revoke access, others have cause to treat domestic model capability as strategic infrastructure, raising the likelihood of accelerated national AI programs.</li>
+  </ul>
+
+  <div class="callout">
+    <div class="h">Assessment against the Aunoo AI foresight</div>
+    The directive advances the "AI sovereignty" and "model access as supply-chain risk" themes flagged in our standing AI foresight, moving them from a 6–24 month horizon toward the near term. Sentiment on the AI topic is currently net-positive but cooling, with no inflection detected as of this report. An abrupt, poorly-documented shutdown of this kind raises the probability of a negative shift; the sentiment-inflection signal is the primary indicator to monitor. Confidence: moderate, pending release of the government's technical justification.
+  </div>
+
+  <h2 class="sec">Forecast outlook — Aunoo consensus</h2>
+  <p>Aunoo's cross-source consensus rates this read <b>Strong</b> (high evidence quality, <b>85% majority agreement</b>). Sentiment splits <b>70% neutral / 15% positive / 15% critical</b>. Two scenarios run through the coverage:</p>
+  <table class="cols"><tr>
+    <td style="width:50%"><div class="card opt"><div class="lbl">Optimistic · ~20% of sources</div><div class="hd">Targeted security measure</div><div class="bd">Restrictions stay narrowly scoped to the specific flaw and are lifted once remediated, rather than broadening into AI nationalism.</div></div></td>
+    <td class="gap"></td>
+    <td style="width:50%"><div class="card pes"><div class="lbl">Pessimistic · ~25% of sources</div><div class="hd">Escalating AI cold war</div><div class="bd">The action triggers retaliatory measures abroad and further balkanisation of global AI development and access.</div></div></td>
+  </tr></table>
+  <p style="font-size:8.5pt;color:#6f5f6a;margin:10px 0 4px">Projected milestones (Aunoo):</p>
+  <table class="cols"><tr>
+    <td style="width:33%"><div class="card pink"><div class="lbl">2026</div><div class="bd">Other major labs receive similar access-restriction directives, confirming a systematic policy shift.</div></div></td>
+    <td class="gap"></td>
+    <td style="width:33%"><div class="card pink"><div class="lbl">2027</div><div class="bd">Formal AI export-control regulations published, codifying today's ad-hoc restrictions.</div></div></td>
+    <td class="gap"></td>
+    <td style="width:33%"><div class="card pink"><div class="lbl">2028</div><div class="bd">International AI-security agreements emerge among allied nations.</div></div></td>
+  </tr></table>
+  <p style="font-size:8.2pt;color:#5a4a54;margin:8px 0 0"><b>Assessment.</b> Base case is a contested, partly-restored order with a formal model-export regime taking shape over 12–24 months. The decisive near-term signal is whether a second lab receives a comparable directive; that would move the pessimistic scenario from tail risk to base case. As of 14 June, active resolution talks (Axios) tilt the near term toward the optimistic, targeted-measure scenario. Monitor the Aunoo sentiment-inflection indicator for a negative turn.</p>
+
+  <h2 class="sec">Outlook &amp; indicators to watch</h2>
+  <ul>
+    <li><b>Restoration vs. escalation:</b> whether Commerce rescinds/narrows the order, or formalises a lasting model-level export regime.</li>
+    <li><b>Documentation:</b> release of specifics on the jailbreak would shift the credibility balance between government and Anthropic.</li>
+    <li><b>Spillover to rivals:</b> similar action against OpenAI/Google models would confirm a doctrine, not a one-off.</li>
+    <li><b>Legal challenge:</b> likely, given Anthropic's prior willingness to litigate the supply-chain designation.</li>
+    <li><b>International response:</b> concrete sovereign-AI funding/announcements (India, Gulf states, EU) in coming weeks.</li>
+  </ul>
+
+  <h2 class="sec">Source assessment &amp; confidence</h2>
+  <p>Findings are anchored on the <b>primary source</b> (Anthropic's own statement [1]) and consistently reported by US wire and tech press (AP [2], Ars Technica [3]) and across regions: Hong Kong (SCMP [6]), Australia (Sydney Morning Herald [9]), France (France 24 [8]), Russia (TASS), plus Politico [5] and Boston Globe [7]. The jailbreak is <b>independently documented</b> [4]. The Amazon-trigger account is <b>single-sourced to the Wall Street Journal</b> [10], and the link between the public jailbreak and the government's stated concern is <b>inferred, not cited</b>. Aggregate sentiment is Neutral (Aunoo consensus: 70/15/15).</p>
+  <p><b>Confidence:</b> High on the order and its terms (primary-sourced, broadly corroborated) and on the jailbreak demonstration (independently documented). Moderate on the <i>cause</i>, pending the government's technical justification, given two reported triggers and no official attribution to the public demonstration.</p>
+
+  <h2 class="sec">References</h2>
+  <ol class="refs">
+    <li><span class="src">Anthropic (primary)</span> — US Government directive to suspend access to Fable 5 and Mythos 5. <span class="url">anthropic.com/news/fable-mythos-access</span></li>
+    <li><span class="src">AP News</span> — Anthropic says it has taken its latest AI models offline to comply with new export controls. <span class="url">apnews.com/article/anthropic-artificial-intelligence-trump-fable-mythos-d9cc7df5c02e93837d0f0bfb24d5cfd2</span></li>
+    <li><span class="src">Ars Technica</span> — Anthropic shuts down Fable, Mythos models following Trump admin directive. <span class="url">arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/</span></li>
+    <li><span class="src">Cyber Security News</span> — Anthropic's Claude Fable 5 jailbroken to generate stack exploits. <span class="url">cybersecuritynews.com/anthropics-claude-fable-5-jailbroken/</span></li>
+    <li><span class="src">Politico</span> — Inside the whirlwind 24 hours that led the White House to slap export controls on Anthropic. <span class="url">politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-00961519</span></li>
+    <li><span class="src">SCMP</span> — US blocks foreign access to Anthropic's newest AI models over security risks. <span class="url">scmp.com/tech/article/3356990</span></li>
+    <li><span class="src">Boston Globe</span> — US bars foreigners from using Anthropic's most advanced AI models. <span class="url">bostonglobe.com/2026/06/13/world/us-bars-foreigners-from-using-anthropics-ai-models/</span></li>
+    <li><span class="src">France 24</span> — Anthropic disables access to top-tier AI models after US ban on foreign use. <span class="url">france24.com/en/americas/20260613-anthropic-disables-access</span></li>
+    <li><span class="src">Sydney Morning Herald</span> — Trump reignites Anthropic feud after takedown of latest AI model. <span class="url">smh.com.au/business/companies/202

@@ -1,0 +1,78 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#150d16"/>
+      <stop offset="1" stop-color="#241522"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ce5e9c"/>
+      <stop offset="0.55" stop-color="#e98fc0"/>
+      <stop offset="1" stop-color="#ce5e9c"/>
+    </linearGradient>
+    <linearGradient id="pinkglow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ce5e9c" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ce5e9c" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1080" cy="120" r="320" fill="url(#pinkglow)"/>
+
+  <!-- giant faint watermark mark -->
+  <g transform="translate(815,250) scale(3.1)" opacity="0.06">
+    <path fill="#ecedf2" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+    <path fill="#ecedf2" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+    <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
+  </g>
+
+  <!-- top accent bar -->
+  <rect x="0" y="0" width="1200" height="8" fill="url(#bar)"/>
+
+  <!-- logo + wordmark -->
+  <g transform="translate(72,70)">
+    <g transform="scale(0.62)">
+      <path fill="#ecedf2" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+      <path fill="#ecedf2" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+      <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
+    </g>
+    <text x="118" y="22" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="3" fill="#f1eaf0">AUNOO</text>
+    <text x="119" y="42" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="5" fill="#b79fb0">NEWS-INTELLIGENCE</text>
+  </g>
+
+  <!-- eyebrow pill -->
+  <g transform="translate(72,210)">
+    <rect x="0" y="0" width="356" height="34" rx="17" fill="rgba(206,94,156,0.14)" stroke="#ce5e9c" stroke-width="1"/>
+    <circle cx="22" cy="17" r="5" fill="#ce5e9c"/>
+    <text x="40" y="22" font-family="Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#e98fc0">SITUATION REPORT  ·  14 JUNE 2026</text>
+  </g>
+
+  <!-- headline -->
+  <text font-family="Helvetica, Arial, sans-serif" font-weight="700" fill="#ffffff" letter-spacing="-0.5">
+    <tspan x="72" y="318" font-size="58">US orders Anthropic's Fable 5</tspan>
+    <tspan x="72" y="384" font-size="58">and Mythos 5 offline</tspan>
+  </text>
+
+  <!-- subhead -->
+  <text x="72" y="442" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#c9b4c4">Export controls suspend the models for all foreign nationals.</text>
+  <text x="72" y="476" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#c9b4c4">A first: the control targets the model, not the chips behind it.</text>
+
+  <!-- chips -->
+  <g transform="translate(72,532)" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <g>
+      <rect x="0" y="0" width="290" height="40" rx="8" fill="#251b29" stroke="#3a2c3e"/>
+      <text x="20" y="26" fill="#e0cdd9">Anthropic · Fable 5 / Mythos 5</text>
+    </g>
+    <g transform="translate(306,0)">
+      <rect x="0" y="0" width="200" height="40" rx="8" fill="#251b29" stroke="#3a2c3e"/>
+      <text x="20" y="26" fill="#e0cdd9">National security</text>
+    </g>
+    <g transform="translate(522,0)">
+      <rect x="0" y="0" width="175" height="40" rx="8" fill="#251b29" stroke="#3a2c3e"/>
+      <text x="20" y="26" fill="#e0cdd9">Sovereign AI</text>
+    </g>
+  </g>
+
+  <!-- footer right -->
+  <text x="1128" y="586" text-anchor="end" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#8a7a85">Powered by Aunoo news-intelligence</text>
+</svg>
