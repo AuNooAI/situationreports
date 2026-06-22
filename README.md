@@ -29,7 +29,7 @@ This repository holds two linked products:
 
 **Threat actor profiles** live under [`actors/`](actors/), one folder per actor. Start with the [actor registry](actors/registry.md) for an index, or the [profile schema](actors/SCHEMA.md) for the format. Actors and reports are cross-linked by stable IDs (e.g. `ACT-2026-BLACKCORE`) in YAML front-matter, so an event and the actor behind it point at each other.
 
-Currently profiled: **BlackCore / AMON MIRAGE** (`ACT-2026-BLACKCORE`) and **Team Jorge / AMON MARIONETTE** (`ACT-2026-TEAMJORGE`).
+Currently profiled: **BlackCore / AMON MIRAGE** (`ACT-2026-BLACKCORE`) and **Team Jorge / AHAB PUPPETEER** (`ACT-2026-TEAMJORGE`).
 
 ## About Aunoo
 
