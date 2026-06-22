@@ -1,0 +1,80 @@
+# Machine-readable actor record — mirrors profile.md front-matter.
+# Single source of truth for registry generation and cross-link integrity checks.
+id: ACT-2026-BLACKCORE
+name: BlackCore
+codename: AMON MIRAGE
+aliases: [Black Core]
+actor_type: influence-ops-vendor
+country_nexus: [Israel]
+operational_status: disrupted
+profile_status: tentative
+attribution_confidence: moderate
+first_observed: 2026-03
+last_active: 2026-06
+last_updated: 2026-06-20
+tlp: CLEAR
+motivations: [contract-hire, geopolitical-narrative, data-harvesting]
+target_sectors: [elections, political-candidates, civil-society, pro-palestine-advocacy]
+target_geographies: [FR, US-NY, GB-SCT, AO, TG]
+frameworks: [DISARM, ATT&CK, AUNOO-8T]
+aunoo_tactic_vector:
+  legitimacy_inversion: 2
+  severity_minimization: 0
+  category_reframing: 1
+  whataboutism: 0
+  identity_reframing: 3
+  motive_substitution: 1
+  agent_swap: 0
+  cause_effect_reversal: 0
+
+# Distinguishing flag: heavy pure-fabrication, outside the reframing model.
+fabrication_dominant: true
+
+related_sitreps:
+  - SITREP:2026-06-blackcore-france-elections
+related_actors:
+  - id: ACT-2026-TEAMJORGE
+    relationship: comparison        # comparison | shared-infra | lineage | operational-link
+    note: "Same genre (Israeli influence-for-hire); no established operational link."
+
+# Named entities with resolver-style status (auto|confirmed|ambiguous|unresolved)
+entities:
+  - name: Galacticos Ltd
+    kind: company
+    status: confirmed
+    link_to_actor: tentative
+    note: "Ex-Pagecorn Ltd -> Mycelium Intelligence Networks -> Galacticos. Built avatar generator."
+  - name: SNI Digital Ltd
+    kind: company
+    status: confirmed
+    link_to_actor: tentative
+    note: "Reportedly hosted avatar tooling on a London server."
+  - name: Benguy Escrow Company Ltd
+    kind: company
+    status: confirmed
+    link_to_actor: tentative
+    note: "Trustee/escrow vehicle; distance-inserting structure."
+  - name: Guy Geyor
+    kind: person
+    status: confirmed
+    link_to_actor: ambiguous
+    note: "Tech entrepreneur; denies knowledge of BlackCore."
+  - name: Doron Afik
+    kind: person
+    status: confirmed
+    link_to_actor: ambiguous
+    note: "Lawyer; reported majority stake in Galacticos; denies involvement."
+  - name: Yigal Unna
+    kind: person
+    status: unresolved
+    link_to_actor: unresolved
+    note: "Former head of Israel National Cyber Directorate; denies any link."
+  - name: Unit 8200
+    kind: org
+    status: unresolved
+    link_to_actor: unresolved
+
+source_count: 14
+admiralty_high_water: B2
+analyst: "Aunoo Intelligence"
+review_status: published

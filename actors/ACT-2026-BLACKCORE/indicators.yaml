@@ -1,0 +1,154 @@
+# Structured observables for ACT-2026-BLACKCORE.
+# Values for live/malicious infrastructure are defanged.
+# Every indicator carries status (suspected|tentative|confirmed) and confidence (low|moderate|high).
+actor_id: ACT-2026-BLACKCORE
+last_updated: 2026-06-20
+
+indicators:
+  - id: IOC-1
+    type: domain
+    value: "blackcore[.]online"
+    status: confirmed
+    confidence: high
+    first_seen: 2025-08
+    last_seen: 2026-05
+    state: taken-down
+    context: "Primary bilingual (HE/EN) marketing site; 'political campaign management' product. Anonymous Icelandic registrar; presented firm as long-established."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-2
+    type: subdomain
+    value: "8x subdomains of blackcore[.]online (not all public)"
+    status: tentative
+    confidence: moderate
+    first_seen: 2025-08
+    last_seen: 2026-05
+    state: taken-down
+    context: "Eight subdomains tied to BlackCore; one ran the avatar tooling cluster."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-3
+    type: server
+    value: "London-based server (Finnish cloud provider)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2025
+    last_seen: 2026-05
+    state: taken-down
+    context: "Hosted password-protected influence-op tools incl. 'Galacticos AI Avatar Generator Login Page'. Hosted only a small cluster of sites sharing characteristics."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-4
+    type: infrastructure
+    value: "Servers in GB, DE, FI, LT"
+    status: tentative
+    confidence: moderate
+    first_seen: 2025
+    last_seen: 2026-05
+    state: unknown
+    context: "Multi-country hosting toolkit identified in the joint investigation; jurisdictional laundering off Israeli soil."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-5
+    type: registrar
+    value: "Anonymous Icelandic registrar"
+    status: confirmed
+    confidence: high
+    first_seen: 2025-08
+    state: active
+    context: "Allows owner anonymity; used to register IOC-1."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-6
+    type: company
+    value: "Galacticos Ltd (ex-Pagecorn Ltd; ex-Mycelium Intelligence Networks)"
+    status: confirmed
+    confidence: high
+    first_seen: 2022-04
+    state: active
+    context: "Built avatar-generation product; incorporated Tel Aviv Apr 2022, renamed twice. Link to BlackCore: tentative."
+    source: "Haaretz/Liberation 2026-05; Israeli corporate records"
+
+  - id: IOC-7
+    type: company
+    value: "SNI Digital Ltd"
+    status: confirmed
+    confidence: high
+    first_seen: 2022
+    state: active
+    context: "Reportedly hosted avatar tooling on London server. Link to BlackCore: tentative."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-8
+    type: address
+    value: "103 HaHashmonaim Street, Tel Aviv-Jaffa"
+    status: confirmed
+    confidence: high
+    state: active
+    context: "Corporate cluster: Galacticos Ltd, SNI Digital Ltd, Benguy Escrow Company Ltd, Doron Afik's law office. Strong pivot point."
+    source: "Haaretz/Liberation 2026-05"
+
+  - id: IOC-9
+    type: fake-charity
+    value: "Sadaqah Palestine"
+    status: confirmed
+    confidence: high
+    first_seen: 2026
+    last_seen: 2026-06
+    state: taken-down
+    context: "Honeypot 'charity' (website + social + paid Meta ads, 'every dollar saves lives') harvesting donations + donor PII. No registry record in UK/US/EU/IL; largely fake following."
+    source: "Haaretz; Drop Site; Palestine Chronicle"
+
+  - id: IOC-10
+    type: persona
+    value: "'Sophie' (purported blogger)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2026-03
+    state: taken-down
+    context: "Sock-puppet persona used to issue rape/violence accusations against an LFI candidate."
+    source: "Haaretz"
+
+  - id: IOC-11
+    type: fake-outlet
+    value: "Multiple single-purpose smear sites (incl. a fake 'help Muslim voters choose well' guide)"
+    status: confirmed
+    confidence: high
+    first_seen: 2026-03
+    state: taken-down
+    context: "Fabricated criminal allegations + AI-generated fake nude imagery of a candidate; audience-segmentation deception."
+    source: "Le Monde; Haaretz/Liberation"
+
+  - id: IOC-12
+    type: capability
+    value: "~1,600 AI avatars / fake social accounts"
+    status: confirmed
+    confidence: high
+    first_seen: 2026
+    state: taken-down
+    context: "Flagship product: infiltrate Facebook groups, manipulate trends, skew TikTok/Instagram polls."
+    source: "Haaretz/Liberation; Viginum"
+
+  - id: IOC-13
+    type: ad-account
+    value: "Paid Meta advertising (smears + charity honeypot)"
+    status: tentative
+    confidence: moderate
+    first_seen: 2026
+    state: taken-down
+    context: "Paid amplification on Meta; assets removed by Meta/Google/TikTok for coordinated inauthentic behaviour."
+    source: "Haaretz; platform actions"
+
+behavioral_signatures:
+  - "Rapid (~2h) teardown of infrastructure after press contact."
+  - "Repeated corporate renaming (Pagecorn -> Mycelium -> Galacticos)."
+  - "Anonymous-registrar domains presenting as long-established."
+  - "Identity-Reframing-dominant smears + pure fabrication (fake nudes, fake charity)."
+  - "Targets: Gaza-critical / pro-Palestinian electoral figures."
+
+pivots:
+  - "Registrar / hosting cluster overlap"
+  - "103 HaHashmonaim Street corporate registrations"
+  - "Galacticos avatar-generator artefacts / login fingerprints"
+  - "Persona reuse across campaigns"
+  - "Shared Meta ad-account / payment trails"
