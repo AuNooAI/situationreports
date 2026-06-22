@@ -34,7 +34,7 @@ analyst: "Aunoo Intelligence"
 review_status: published
 ---
 
-# THREAT ACTOR PROFILE: Team Jorge — code name "AHAB PUPPETEER" (ACT-2026-TEAMJORGE)
+# THREAT ACTOR PROFILE: AHAB PUPPETEER — "Team Jorge" (ACT-2026-TEAMJORGE)
 
 **Classification:** Unclassified · OSINT · **TLP:**CLEAR
 **Code name:** AHAB PUPPETEER
