@@ -32,7 +32,7 @@ analyst: "Aunoo Intelligence"
 review_status: draft                # draft | in-review | published
 ---
 
-# THREAT ACTOR PROFILE: <Name> (<ID>)
+# THREAT ACTOR PROFILE: <CODE NAME> — "<Name>" (<ID>)
 
 **Classification:** Unclassified · OSINT · **TLP:**<COLOUR>
 **As of:** <DD Mon YYYY, HH:MM UTC>
