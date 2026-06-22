@@ -1,0 +1,38 @@
+# Authoritative index of profiled actors. Generated/maintained from each actor's meta.yaml.
+# This file is the source of truth for cross-link integrity (related_sitreps / related_actors
+# must resolve to IDs that exist here).
+version: 0.1
+updated: 2026-06-20
+
+actors:
+  - id: ACT-2026-BLACKCORE
+    name: BlackCore
+    codename: AMON MIRAGE
+    aliases: [Black Core]
+    actor_type: influence-ops-vendor
+    country_nexus: [Israel]
+    operational_status: disrupted
+    profile_status: tentative
+    attribution_confidence: moderate
+    first_observed: 2026-03
+    last_active: 2026-06
+    path: actors/ACT-2026-BLACKCORE/
+    related_sitreps:
+      - SITREP:2026-06-blackcore-france-elections
+    review_status: published
+
+# --- placeholders for the comparison actor referenced by BlackCore ---
+# Stubs are listed so related_actors links resolve. Promote to a full folder when profiled.
+stubs:
+  - id: ACT-2026-TEAMJORGE
+    name: "Team Jorge (Tal Hanan)"
+    actor_type: influence-ops-vendor
+    country_nexus: [Israel]
+    note: "Referenced as comparison by ACT-2026-BLACKCORE. Not yet profiled."
+
+# Situation reports referenced by actors in this repo (mirror of the cross-link, for integrity checks).
+sitrep_links:
+  - slug: 2026-06-blackcore-france-elections
+    repo: AuNooAI/situationreports
+    actors: [ACT-2026-BLACKCORE]
+    status: to-be-created   # reciprocal link to be added on the sitrep side
