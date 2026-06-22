@@ -23,7 +23,7 @@ actors:
 
   - id: ACT-2026-TEAMJORGE
     name: Team Jorge
-    codename: AMON MARIONETTE        # PROPOSED — pending approval
+    codename: AHAB PUPPETEER
     aliases: [Jorge, AIMS team, Tal Hanan group]
     actor_type: influence-ops-vendor
     country_nexus: [Israel]

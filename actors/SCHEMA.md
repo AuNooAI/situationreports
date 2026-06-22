@@ -46,7 +46,9 @@ Rules:
 
 ### 3.1 Code names (CIOPS)
 
-In addition to the canonical ID, a coordinated-influence-operations (CIOPS) actor may be assigned a human-memorable **code name** in the `codename` field — a two-word, all-caps handle (e.g. `AMON MIRAGE`). Code names aid briefing and recall and are independent of the ID (the ID is for tooling; the code name is for humans). The code-name *theme* may encode the actor's suspected nexus — e.g. an Egyptian/Levantine deity prefix (`AMON …`) for a Middle-East-nexus actor — but the theme is advisory, not a controlled vocabulary. One code name maps to exactly one ID; never reuse a code name across actors.
+In addition to the canonical ID, a coordinated-influence-operations (CIOPS) actor may be assigned a human-memorable **code name** in the `codename` field — typically a two-word, all-caps handle (e.g. `AMON MIRAGE`, `AHAB PUPPETEER`). Code names aid briefing and recall and are independent of the ID (the ID is for tooling; the code name is for humans).
+
+For **suspected-Israeli** CIOPS actors, the house convention draws the first word from the **infamous/wicked kings of Israel and Judah** (e.g. *Amon* and *Ahab*) — a deliberately **shaming** label — paired with a second word evoking the actor's tradecraft (*Mirage* for fabrication; *Puppeteer* for an avatar/bot army). The biblical-king register signals the suspected nexus; the noun signals the MO. The theme is advisory, not a controlled vocabulary, and other nexuses may use other registers. Each code name is **unique** and maps to exactly one ID — never a shared prefix and never reused across actors.
 
 **Related cross-reference IDs:**
 - **Situation reports** are referenced by their repo folder slug, e.g. `2026-06-blackcore-france-elections`, prefixed `SITREP:` in front-matter.
