@@ -200,7 +200,7 @@ Core observables: the `blackcore[.]online` brand domain (anonymous Icelandic reg
 ### CAMP-BLACKCORE-01 — France LFI municipal smear (Mar 2026)
 
 Fabricated sexual-assault allegations, AI-generated fake nudes, a fake "Muslim voter guide," and avatar amplification against three LFI candidates ahead of the March 2026 municipals. Removed by Meta/Google/TikTok for coordinated inauthentic behaviour; now under two French investigations.
-**Sitrep:** [2026-06-blackcore-france-elections](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-06-blackcore-france-elections) *(to be created / reciprocal link)*
+**Sitrep:** [2026-06-blackcore-france-elections](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-06-blackcore-france-elections)
 
 ### CAMP-BLACKCORE-02 — NYC 2025, Scotland, Angola, Togo (per Viginum)
 
