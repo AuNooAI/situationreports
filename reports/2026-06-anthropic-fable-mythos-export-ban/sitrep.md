@@ -1,3 +1,7 @@
+---
+related_actors: []   # no CIOPS actor associated with this event
+---
+
 # SITUATION REPORT: US Government Export-Control Suspension of Anthropic's Fable 5 / Mythos 5
 
 **Classification:** Unclassified · Open-source intelligence (OSINT)
