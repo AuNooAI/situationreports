@@ -35,7 +35,7 @@ analyst: "Aunoo Intelligence"
 review_status: published
 ---
 
-# THREAT ACTOR PROFILE: BlackCore — code name "AMON MIRAGE" (ACT-2026-BLACKCORE)
+# THREAT ACTOR PROFILE: AMON MIRAGE — "BlackCore" (ACT-2026-BLACKCORE)
 
 **Classification:** Unclassified · OSINT · **TLP:**CLEAR
 **Code name:** AMON MIRAGE
