@@ -104,7 +104,7 @@ review_status: published          #    draft|in-review|published
 
 The narrative profile follows a fixed section order so profiles are skimmable and diffable. Sections marked *(opt)* may be omitted when empty, with a one-line "no current data" note.
 
-1. **Title** — `# THREAT ACTOR PROFILE: <Name> (<ID>)`
+1. **Title** — `# THREAT ACTOR PROFILE: <CODE NAME> — "<Name>" (<ID>)`. **Code-name-first house style:** wherever a code name exists, the H1 title leads with it, with the real-world name in quotes/parentheses after — for both **actor profiles** and the **situation reports** that reference them (e.g. a sitrep titled `SITUATION REPORT: AMON MIRAGE (BlackCore) — …`). If no code name has been assigned yet, lead with the real-world name. The code name is the durable label; the real-world name can change (rebrands go in `aliases`).
 2. **Header block** — Classification/TLP, As of, Profile status, Attribution confidence, Prepared from (source count + Admiralty high-water).
 3. **BLUF** — 3–6 sentences. What the actor is, the single most important judgement, and the biggest evidentiary caveat.
 4. **Quick-reference card** — a table: ID, aliases, type, nexus, operational status, first/last seen, attribution confidence, frameworks.
