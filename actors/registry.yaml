@@ -42,4 +42,4 @@ sitrep_links:
   - slug: 2026-06-blackcore-france-elections
     repo: AuNooAI/situationreports
     actors: [ACT-2026-BLACKCORE]
-    status: to-be-created   # reciprocal link to be added on the sitrep side
+    status: linked          # reciprocal: sitrep front-matter carries related_actors: [ACT-2026-BLACKCORE]

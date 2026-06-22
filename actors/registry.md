@@ -13,7 +13,7 @@ Human-readable index of profiled actors. Generated from [`registry.yaml`](./regi
 
 | Sitrep | Actor(s) | Status |
 | :-- | :-- | :-- |
-| [2026-06-blackcore-france-elections](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-06-blackcore-france-elections) | `ACT-2026-BLACKCORE` | reciprocal link pending |
+| [2026-06-blackcore-france-elections](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-06-blackcore-france-elections) | `ACT-2026-BLACKCORE` | ✓ linked (reciprocal) |
 
 ## Not yet profiled (referenced as comparisons)
 
