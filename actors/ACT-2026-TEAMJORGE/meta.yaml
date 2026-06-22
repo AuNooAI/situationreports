@@ -1,0 +1,58 @@
+# Machine-readable actor record — mirrors profile.md front-matter.
+id: ACT-2026-TEAMJORGE
+name: Team Jorge
+codename: AMON MARIONETTE   # PROPOSED — pending approval
+aliases: [Jorge, AIMS team, Tal Hanan group]
+actor_type: influence-ops-vendor
+country_nexus: [Israel]
+operational_status: disrupted
+profile_status: confirmed
+attribution_confidence: high
+first_observed: 2015
+last_active: 2023
+last_updated: 2026-06-20
+tlp: CLEAR
+motivations: [contract-hire, financial]
+target_sectors: [elections, political-campaigns, corporate-disputes]
+target_geographies: [global, Africa-heavy]
+frameworks: [DISARM, ATT&CK, AUNOO-8T]
+aunoo_tactic_vector:
+  legitimacy_inversion: 2
+  severity_minimization: 0
+  category_reframing: 0
+  whataboutism: 0
+  identity_reframing: 1
+  motive_substitution: 0
+  agent_swap: 0
+  cause_effect_reversal: 0
+
+fabrication_dominant: true
+cyber_intrusion: true        # distinguishes from pure-IO actors; substantive ATT&CK footprint
+
+related_sitreps: []
+related_actors:
+  - id: ACT-2026-BLACKCORE
+    relationship: comparison
+    note: "Same genre (Israeli influence-for-hire); no established operational link. Lineage/prior-art anchor."
+
+entities:
+  - name: Tal Hanan
+    kind: person
+    status: confirmed
+    link_to_actor: confirmed
+    note: "Founder/leader; alias 'Jorge'; ex-Israeli special forces."
+  - name: Zohar Hanan
+    kind: person
+    status: confirmed
+    link_to_actor: confirmed
+    note: "Brother; reported management/finance role."
+  - name: Demoman International Ltd
+    kind: company
+    status: confirmed
+    link_to_actor: tentative
+    note: "Corporate vehicle reportedly associated with Tal Hanan (Modi'in, Israel)."
+
+source_count: 8
+admiralty_high_water: A1
+analyst: "Aunoo Intelligence"
+review_status: published

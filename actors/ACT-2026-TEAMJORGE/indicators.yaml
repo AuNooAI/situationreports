@@ -1,0 +1,63 @@
+# Structured observables for ACT-2026-TEAMJORGE (Team Jorge / AMON MARIONETTE).
+actor_id: ACT-2026-TEAMJORGE
+last_updated: 2026-06-20
+
+indicators:
+  - id: IOC-1
+    type: capability
+    value: "AIMS (Advanced Impact Media Solutions)"
+    status: confirmed
+    confidence: high
+    first_seen: 2015
+    last_seen: 2023
+    state: exposed
+    context: "SaaS control panel orchestrating tens of thousands of fabricated avatars across X/Twitter, Facebook, LinkedIn, Telegram, Gmail, Instagram, YouTube, Amazon, Airbnb."
+    source: "Story Killers / Forbidden Stories 2023"
+
+  - id: IOC-2
+    type: persona
+    value: "'Jorge' (alias of Tal Hanan)"
+    status: confirmed
+    confidence: high
+    context: "Operating alias used in client engagements."
+    source: "Story Killers 2023"
+
+  - id: IOC-3
+    type: company
+    value: "Demoman International Ltd (Modi'in, Israel)"
+    status: confirmed
+    confidence: moderate
+    context: "Corporate vehicle reportedly associated with Tal Hanan; operational link to AIMS tentative."
+    source: "Story Killers reporting"
+
+  - id: IOC-4
+    type: technique
+    value: "SS7 / telecom-signalling account takeover"
+    status: confirmed
+    confidence: high
+    context: "Compromise of Gmail/Telegram accounts via telecom weaknesses; enabled hack-and-leak. Demonstrated live to undercover reporters."
+    source: "Story Killers 2023"
+
+  - id: IOC-5
+    type: capability
+    value: "Avatar fleet fingerprint"
+    status: confirmed
+    confidence: moderate
+    context: "Fake personas characterised by constructed backstories, attached phone numbers and payment cards, multi-platform presence created in seconds."
+    source: "Story Killers 2023"
+
+behavioral_signatures:
+  - "Integrated package: avatar fleet + offensive account compromise + hack-and-leak."
+  - "Mercenary targeting (follows the paying client; Africa-heavy electoral work)."
+  - "Live demonstration of capability to prospective clients."
+  - "Sales-boast scope claims ('33 campaigns / 27 successful') — treat as unverified."
+
+pivots:
+  - "AIMS-style avatar creation/fingerprint reuse by successors"
+  - "Tal Hanan / Zohar Hanan / Demoman International linked entities"
+  - "Hack-and-leak dumps timed to election cycles"
+
+note: >
+  Team Jorge is tracked primarily as a lineage/comparison anchor (prior art) for newer
+  Israeli influence-for-hire vendors such as ACT-2026-BLACKCORE. No established operational
+  link between the two.
