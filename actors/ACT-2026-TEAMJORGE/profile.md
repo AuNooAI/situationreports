@@ -1,7 +1,7 @@
 ---
 id: ACT-2026-TEAMJORGE
 name: Team Jorge
-codename: AMON MARIONETTE   # PROPOSED — same AMON (Israel-nexus) family as BlackCore; pending approval
+codename: AHAB PUPPETEER
 aliases: [Jorge, AIMS team, Tal Hanan group]
 actor_type: influence-ops-vendor
 country_nexus: [Israel]
@@ -34,10 +34,10 @@ analyst: "Aunoo Intelligence"
 review_status: published
 ---
 
-# THREAT ACTOR PROFILE: Team Jorge — code name "AMON MARIONETTE" (ACT-2026-TEAMJORGE)
+# THREAT ACTOR PROFILE: Team Jorge — code name "AHAB PUPPETEER" (ACT-2026-TEAMJORGE)
 
 **Classification:** Unclassified · OSINT · **TLP:**CLEAR
-**Code name:** AMON MARIONETTE *(proposed)*
+**Code name:** AHAB PUPPETEER
 **As of:** 20 June 2026, 18:00 UTC
 **Profile status:** confirmed · **Attribution confidence:** high
 **Prepared from:** 8 sources · Admiralty high-water A1 (subject recorded on camera by the journalist consortium that exposed him)
@@ -55,7 +55,7 @@ Team Jorge is an Israeli private "influence-for-hire" outfit led by **Tal Hanan*
 | Field | Value |
 | :-- | :-- |
 | Actor ID | `ACT-2026-TEAMJORGE` |
-| Code name | **AMON MARIONETTE** *(proposed)* |
+| Code name | **AHAB PUPPETEER** |
 | Aliases | "Jorge", AIMS team, Tal Hanan group |
 | Type | Influence-operations vendor (hire-for-service) + offensive cyber |
 | Country nexus | Israel |
@@ -196,7 +196,7 @@ Exceptionally well-evidenced for this category: the principal was **filmed demon
 
 | Date | Change |
 | :-- | :-- |
-| 2026-06-20 | Initial profile created at `confirmed` / attribution `high`. Second worked example; lineage anchor for BlackCore. Code name AMON MARIONETTE proposed. |
+| 2026-06-20 | Initial profile created at `confirmed` / attribution `high`. Second worked example; lineage anchor for BlackCore. Code name AHAB PUPPETEER assigned. |
 
 ---
 
