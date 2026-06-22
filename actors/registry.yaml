@@ -21,14 +21,21 @@ actors:
       - SITREP:2026-06-blackcore-france-elections
     review_status: published
 
-# --- placeholders for the comparison actor referenced by BlackCore ---
-# Stubs are listed so related_actors links resolve. Promote to a full folder when profiled.
-stubs:
   - id: ACT-2026-TEAMJORGE
-    name: "Team Jorge (Tal Hanan)"
+    name: Team Jorge
+    codename: AMON MARIONETTE        # PROPOSED — pending approval
+    aliases: [Jorge, AIMS team, Tal Hanan group]
     actor_type: influence-ops-vendor
     country_nexus: [Israel]
-    note: "Referenced as comparison by ACT-2026-BLACKCORE. Not yet profiled."
+    operational_status: disrupted
+    profile_status: confirmed
+    attribution_confidence: high
+    first_observed: 2015
+    last_active: 2023
+    path: actors/ACT-2026-TEAMJORGE/
+    related_sitreps: []
+    related_actors: [ACT-2026-BLACKCORE]
+    review_status: published
 
 # Situation reports referenced by actors in this repo (mirror of the cross-link, for integrity checks).
 sitrep_links:

@@ -7,6 +7,7 @@ Human-readable index of profiled actors. Generated from [`registry.yaml`](./regi
 | ID | Code name | Name | Type | Nexus | Operational | Profile | Attribution | First seen | Profile |
 | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- | :-- |
 | `ACT-2026-BLACKCORE` | AMON MIRAGE | BlackCore | Influence-ops vendor | Israel | Disrupted | Tentative | Moderate | 2026-03 | [profile](./ACT-2026-BLACKCORE/profile.md) |
+| `ACT-2026-TEAMJORGE` | AMON MARIONETTE | Team Jorge | Influence-ops vendor + cyber | Israel | Disrupted | Confirmed | High | 2015 | [profile](./ACT-2026-TEAMJORGE/profile.md) |
 
 ## Linked situation reports
 
@@ -16,6 +17,4 @@ Human-readable index of profiled actors. Generated from [`registry.yaml`](./regi
 
 ## Not yet profiled (referenced as comparisons)
 
-| ID | Name | Note |
-| :-- | :-- | :-- |
-| `ACT-2026-TEAMJORGE` | Team Jorge (Tal Hanan) | Comparison actor referenced by BlackCore; stub only. |
+_None — all referenced actors are now profiled._
