@@ -23,6 +23,9 @@ This repository holds two linked products:
 **BlackCore (AMON MIRAGE): Israeli firm and the 2026 French election interference campaign** — 20 June 2026
 [Read the report »](reports/2026-06-blackcore-france-elections/) · [Actor profile »](actors/ACT-2026-BLACKCORE/profile.md)
 
+**Fabricated Jeff Bezos quote on prioritising AI water use over humans** — 22 June 2026
+[Read the report »](reports/2026-06-bezos-fabricated-ai-water-quote/) — a misinformation incident (assessed LLM hallucination), not a coordinated actor.
+
 ## Browse
 
 **Situation reports** live under [`reports/`](reports/), one folder per event. Each includes the situation report, a shareable bulletin, and a web version.
