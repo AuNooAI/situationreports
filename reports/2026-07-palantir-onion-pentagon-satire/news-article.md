@@ -4,7 +4,7 @@
 
 ---
 
-The Onion published a joke, and some traders think a machine took it seriously.
+The Onion joked that Palantir had bought the Pentagon. Some traders think trading bots read the joke as real and pushed the stock up.
 
 On or around 30 June, the satirical outlet ran a headline saying Palantir had bought the Pentagon for $800 billion. The post reached the front page of r/wallstreetbets, the retail-trading forum, where it gathered roughly 24,000 upvotes. Users there then noticed a same-day move in Palantir's stock and offered an explanation. Automated trading systems, they said, had scanned the top Reddit post, read the excitement around it as a real signal, and bought. Ben Collins of The Onion relayed the account on Bluesky, and it spread from there.
 
