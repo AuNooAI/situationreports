@@ -64,7 +64,7 @@ The operational point is that the current automated pipeline does not by itself 
 
 ## Recommended handling
 
-Do not restate "trading bots bought up Palantir because of an Onion story" as established fact; present it as an unverified but plausible account and attribute the causal claim to Wall Street Bets users. Do not repeat the "$800 billion Pentagon acquisition" line except to identify it as satire. For monitoring, treat automated indexing of social-forum sentiment as an amplification vector in its own right, and treat satirical-outlet domains as a distinct source class that any automated signal pipeline should flag before scoring. If confirmation of an actual price move is sought, the load-bearing evidence would be intraday Palantir market data around 30 June to 1 July and any statement from a trading firm or market maker.
+Do not restate "trading bots bought up Palantir because of an Onion story" as established fact; present it as an unverified but plausible account and attribute the causal claim to Wall Street Bets users. Do not repeat the "$800 billion Pentagon acquisition" line except to identify it as satire. For monitoring, treat automated indexing of social-forum sentiment as an amplification vector in its own right, and treat satirical-outlet domains as a distinct source class that any automated signal pipeline should flag before scoring. If confirmation of an actual price move is sought, the evidence that would settle it is intraday Palantir market data around 30 June to 1 July and any statement from a trading firm or market maker.
 
 ## Sources
 
