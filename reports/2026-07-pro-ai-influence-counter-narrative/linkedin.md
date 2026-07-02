@@ -1,4 +1,4 @@
-# Situation Report: Two influence campaigns over American AI, and how the frame got flipped
+# Situation Report: Competing influence campaigns over America's AI data centers
 
 *Aunoo News-Intelligence · 2 July 2026*
 
@@ -6,22 +6,22 @@
 
 **The situation**
 
-Two influence campaigns are running around the same fight over AI data centers. WIRED reported on 1 May that Build American AI, a dark-money group tied to the pro-AI super PAC Leading the Future, paid social-media influencers to promote American AI and frame China as the threat. Over the following weeks, reports from the Bitcoin Policy Institute and the group Power the Future argued the opposite direction of travel, that opposition to AI data centers is itself a China-linked foreign influence operation. Lawmakers have begun citing those reports to call for federal investigations.
+Two separate campaigns are trying to shape public opinion in the fight over AI data centers in the United States. In May, WIRED reported that Build American AI, a dark-money group tied to the pro-AI super PAC Leading the Future, paid social-media influencers to promote American AI and to present China as the threat. In the weeks that followed, reports from the Bitcoin Policy Institute and the advocacy group Power the Future made the reverse argument, that opposition to AI data centers is itself a China-linked foreign influence operation. Lawmakers have begun citing those reports to call for federal investigations.
 
 **At a glance**
 
-- The pro-AI influencer campaign is well documented, with named actors, campaign materials, and responses from implicated parties. Influencers were reportedly offered around $5,000 per TikTok video.
-- The pro-AI political network is large. Leading the Future raised more than $125m (Axios), part of an AI and crypto PAC environment the Financial Times has sized at roughly $250m to $300m ahead of the midterms.
+- The pro-AI influencer campaign is well documented. WIRED named the actors, described the campaign materials, and quoted people it implicated. Influencers were reportedly offered around $5,000 per TikTok video.
+- The pro-AI political network is large. Leading the Future raised more than $125m (Axios), part of an AI and crypto PAC environment the Financial Times has valued at roughly $250m to $300m ahead of the midterms.
 - OpenAI and Palantir deny corporate involvement. OpenAI says it does not direct or fund Leading the Future and opposes astroturfing.
-- The counter-narrative claim that foreign actors drive anti-data-center opposition is not supported by the available evidence.
+- The counter-narrative claim, that foreign actors drive anti-data-center opposition, is not supported by the available evidence.
 
 **On the evidence**
 
-The two claims are not equally supported. OpenAI's own June report found a likely China-origin operation testing anti-data-center messaging, but recorded no meaningful breakout. WIRED reported that Graphika had not seen a scaled foreign operation and that domestic actors were leading the conversation. Separate coverage found that a majority of data-center opposition is led by Republicans, which is hard to square with a mainly foreign-driven movement. Foreign actors do test and amplify real domestic grievances, so the concern is not baseless, but the current record does not show foreign influence driving the opposition.
+The two claims do not rest on the same quality of evidence. OpenAI's own June report found a likely China-origin operation testing anti-data-center messaging, but recorded no meaningful breakout. WIRED reported that Graphika had not found a scaled foreign operation and that domestic actors were leading the conversation. Separate coverage found that most data-center opposition is led by Republicans, which is difficult to reconcile with a mainly foreign-driven movement. Foreign actors do test and amplify real domestic grievances, so the concern is not baseless, but the current record does not show foreign influence driving the opposition.
 
 **Why it matters**
 
-The counter-narrative reframes a local dispute about energy, water, land, and electricity prices as a national-security and counterintelligence matter. That shifts the venue from zoning boards and utility regulators toward the FBI, the Justice Department, and congressional oversight, and it raises the cost of ordinary civic opposition. It also arrives after the pro-AI campaign was exposed, and it relocates the accusation of manufactured activity onto opponents. The Bitcoin Policy Institute material is best interpreted as the policy-paper layer of that counter-campaign, a citation source that officials and investors can point to. We have not seen evidence that it is directly coordinated with or funded by the pro-AI network.
+The counter-narrative treats a local dispute about electricity prices, water use, and land as a national-security and counterintelligence matter. That moves it away from zoning boards and utility regulators toward federal law enforcement and congressional oversight, and it raises the cost of ordinary civic opposition. It also arrives after the pro-AI campaign was exposed, and it moves the suggestion of manufactured support onto the campaign's opponents. The Bitcoin Policy Institute material is best understood as the policy-paper layer of that counter-campaign, a citation source that officials and investors can point to. We have not seen evidence that it is directly coordinated with or funded by the pro-AI network.
 
 **What we are watching**
 
@@ -31,7 +31,7 @@ The counter-narrative reframes a local dispute about energy, water, land, and el
 
 **Bottom line**
 
-The pro-AI side was shown running influence activity, and the response was to argue that the real influence operation belongs to the other side. The evidence for the first claim is strong. The evidence for the second is not.
+The influence activity that has actually been documented is on the pro-AI side. The counterclaim, that opponents of data centers are the ones running an influence operation, is not supported by the current public evidence.
 
 ---
 

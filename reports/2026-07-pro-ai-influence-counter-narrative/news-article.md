@@ -4,9 +4,9 @@
 
 ---
 
-There are two influence campaigns running around America's fight over AI data centers, and they point in opposite directions. One is well documented. The other is mostly an accusation. The gap between them is the story.
+Two separate campaigns are working to shape how Americans think about AI data centers. They make opposite claims, and the evidence behind them is very different.
 
-In May, WIRED reported that a dark-money group was **[paying social-media influencers to talk up American AI and cast China as the threat](https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/)**. Over the following weeks, a set of reports argued almost the reverse: that the people objecting to data centers in their towns were themselves part of a China-linked foreign influence operation. Lawmakers picked up the second claim and asked the FBI and the Justice Department to investigate. What the evidence actually supports is worth spelling out, because the two sides are not on equal footing.
+In May, WIRED reported that a dark-money group was **[paying social-media influencers to talk up American AI and cast China as the threat](https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/)**. Over the following weeks, a set of reports argued almost the reverse: that the people objecting to data centers in their towns were themselves part of a China-linked foreign influence operation. Lawmakers picked up the second claim and asked the FBI and the Justice Department to investigate. The reporting since then shows the two claims are not backed by the same evidence.
 
 ### What was documented
 
@@ -22,9 +22,9 @@ The problem is that the central claim is not supported by the evidence. OpenAI's
 
 ### Why the frame matters
 
-The reframing does real work. Data-center fights are usually about electricity prices, water use, land, and who bears the local cost of a national buildout. Recast opposition as possible foreign influence, and the venue changes: instead of zoning boards and utility regulators, the matter heads toward the FBI, the Justice Department, and congressional oversight. That raises the cost of ordinary objection for residents who simply do not want a data center next door.
+The reframing changes where the argument happens. Data-center fights are usually about electricity prices, water use, land, and who bears the local cost of a national buildout. When opposition is described as possible foreign influence, the matter moves away from zoning boards and utility regulators toward federal law enforcement and congressional oversight. That raises the cost of ordinary objection for residents who simply do not want a data center next door.
 
-It also arrives at a convenient moment. Once the public learns that some of the "grassroots" enthusiasm for AI was paid for, the industry's claim to popular support looks weaker. The counter-narrative answers that problem by moving the charge of manufactured activity onto the other side. Whether or not it was coordinated, that is what the think-tank material does in practice: it supplies a credible-looking citation that officials and investors can point to. No public evidence shows the Bitcoin Policy Institute is funded by or coordinated with the pro-AI PAC network, so the honest description is that it functions as the policy-paper layer of a counter-campaign, not that it is a proven part of one.
+The timing also helps the pro-AI side. Once the public learns that some of the "grassroots" enthusiasm for AI was paid for, the industry's claim to popular support looks weaker. The counter-narrative answers that problem by moving the charge of manufactured activity onto the other side. Whether or not it was coordinated, that is what the think-tank material does in practice: it supplies a credible-looking citation that officials and investors can point to. No public evidence shows the Bitcoin Policy Institute is funded by or coordinated with the pro-AI PAC network, so the honest description is that it functions as the policy-paper layer of a counter-campaign, not that it is a proven part of one.
 
 None of this means foreign interference is imaginary. States do test and amplify real domestic grievances, and OpenAI found a small example of exactly that. The risk is the opposite error: stretching a genuine, minor signal into a blanket suspicion of a broad and largely homegrown movement. That erodes the credibility of foreign-influence warnings for the moment they are actually needed.
 
