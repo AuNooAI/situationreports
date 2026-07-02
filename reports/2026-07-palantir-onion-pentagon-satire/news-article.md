@@ -6,29 +6,27 @@
 
 The Onion joked that Palantir had bought the Pentagon. Some traders think trading bots read the joke as real and pushed the stock up.
 
-On or around 30 June, the satirical outlet ran a headline saying Palantir had bought the Pentagon for $800 billion. The post reached the front page of r/wallstreetbets, the retail-trading forum, where it gathered roughly 24,000 upvotes. Users there then noticed a same-day move in Palantir's stock and offered an explanation. Automated trading systems, they said, had scanned the top Reddit post, read the excitement around it as a real signal, and bought. Ben Collins of The Onion relayed the account on Bluesky, and it spread from there.
-
-Some parts of the story are well established. The claim being repeated most often, that bots moved the stock, is the one nobody has confirmed.
+On or around 30 June, The Onion ran a headline saying Palantir had bought the Pentagon for $800 billion. The post hit the front page of r/wallstreetbets, a retail-trading forum, and picked up about 24,000 upvotes. Traders there saw Palantir's stock move the same day and blamed automated trading systems, which they said had scanned the top Reddit post, taken the excitement as a real buy signal, and bought in. Ben Collins of The Onion repeated the story on Bluesky, and it spread from there.
 
 ### What is confirmed
 
-The Onion article is satire. Palantir did not buy the Pentagon, and the outlet did not present the claim as real. The Reddit thread is real too, and it drew heavy engagement. Collins, who works at The Onion, described the episode publicly on 1 July. None of that is in dispute.
+The Onion piece is satire. Palantir did not buy the Pentagon, and The Onion never claimed it did. The Reddit thread is real and drew heavy traffic. Collins, who works at The Onion, posted about it on 1 July. None of that is in question.
 
 ### What is not
 
-Whether trading bots actually moved Palantir's stock because of the Reddit post is unverified. The claim began as guesswork by Wall Street Bets users and was passed along second-hand, with hedging words like "might've" attached. No exchange data, no broker statement, and no trading firm has confirmed that a price move happened or that an algorithm reading Reddit caused it. It is a plausible account of how these systems can behave, but for now it is an account rather than a documented fact.
+Nobody has confirmed that trading bots moved Palantir's stock. The idea started as guesswork on r/wallstreetbets and was passed on second-hand, hedged with words like "might've". No exchange data, no broker, and no trading firm has confirmed that the price moved or that an algorithm reading Reddit caused it. It is a believable account of how these systems can behave, and nothing more for now.
 
-The distinction is easy to lose, because the story is satisfying and close enough to the truth to feel real. Palantir does have genuine, heavily reported business with the Pentagon, including the formalisation of its Maven system as a military program earlier this year. An "$800 billion Pentagon" headline sits near enough to that reality to be mistaken for it for a moment.
+The story is easy to believe because it lands close to the truth. Palantir does a lot of real, well-documented business with the Pentagon, including getting its Maven system approved as a military program earlier this year. An "$800 billion Pentagon" headline is absurd, but not so far from Palantir's actual work that a careless reader, or a careless machine, would catch it at once.
 
 ### Why it matters
 
-This case is unusual because of who did the misreading. In most misinformation stories the audience that gets fooled is human. Here the audience is described as software, operating in seconds, with money attached. Automated systems that read social-media sentiment and act on it are a real channel through which bad information can move markets, whether or not that is what happened this time.
+The odd part is who got fooled. Usually the people taken in by misinformation are people. Here the reader was software, acting in seconds with money on the line. Automated systems that scan social media and trade on the mood they find are a real way for bad information to reach markets, whatever happened this time.
 
-There is a practical lesson for anyone building those systems. A satirical publisher is a distinct kind of source, and a pipeline that scores news for reliability should recognise it as satire before it does anything else. A human reader classifies The Onion in a second on the strength of the name alone. Automated tools have to be taught to do the same, or they will keep treating jokes as data.
+Anyone building those systems should teach them what a person already knows. The Onion is satire, and a tool that scores news needs to catch that before it scores anything. Otherwise it will keep trading on jokes.
 
 ### What would confirm it
 
-To prove a price move actually happened and that bots caused it, the evidence to look for is minute-by-minute Palantir trading data from around 30 June to 1 July, together with any statement from a trading firm or market maker. Until that surfaces, the honest description is that satire reached a trading forum, and the rest is an unconfirmed but believable guess.
+It would take hard evidence: minute-by-minute Palantir trading data from 30 June to 1 July, and a statement from a trading firm or market maker. Without that, all we can say is that a satirical story reached a trading forum, and the rest is a believable guess.
 
 ### Timeline
 
