@@ -31,10 +31,10 @@ The counter-narrative treats a local dispute about electricity prices, water use
 
 **Bottom line**
 
-The influence activity that has actually been documented is on the pro-AI side. The counterclaim, that opponents of data centers are the ones running an influence operation, is not supported by the current public evidence.
+Based on the available public data, and in Aunoo's assessment, the influence activity that has actually been documented is on the pro-AI side. The counterclaim, that opponents of data centers are the ones running an influence operation, is not supported by the current public evidence.
 
 ---
 
-*Full situation report, with timeline, source-quality breakdown, and forecast, available from Aunoo.*
+*Full situation report, with timeline, source-quality breakdown, and forecast: [github.com/AuNooAI/situationreports](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-07-pro-ai-influence-counter-narrative).*
 
 \#AI #Disinformation #InfluenceOperations #DataCenters #AIgovernance #Aunoo
