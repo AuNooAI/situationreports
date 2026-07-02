@@ -26,7 +26,7 @@ This case is unusual because of who did the misreading. In most misinformation s
 
 There is a practical lesson for anyone building those systems. A satirical publisher is a distinct kind of source, and a pipeline that scores news for reliability should recognise it as satire before it does anything else. A human reader classifies The Onion in a second on the strength of the name alone. Automated tools have to be taught to do the same, or they will keep treating jokes as data.
 
-### What would settle it
+### What would confirm it
 
 To prove a price move actually happened and that bots caused it, the evidence to look for is minute-by-minute Palantir trading data from around 30 June to 1 July, together with any statement from a trading firm or market maker. Until that surfaces, the honest description is that satire reached a trading forum, and the rest is an unconfirmed but believable guess.
 
