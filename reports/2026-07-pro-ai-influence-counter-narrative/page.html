@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Situation Bulletin — Pro-AI Influence Operations and the Data-Center Counter-Narrative | Aunoo</title>
+<style>
+  :root{
+    --bg:#100a10; --panel:#1c151f; --panel2:#251b29; --line:#3a2c3e;
+    --text:#f1eaf0; --muted:#b79fb0; --accent:#ce5e9c; --accent2:#e98fc0; --light:#ecedf2;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:linear-gradient(180deg,#100a10,#160d16);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;}
+  .topbar{height:4px;background:linear-gradient(90deg,#ce5e9c,#e98fc0 55%,#ce5e9c)}
+  .wrap{max-width:760px;margin:0 auto;padding:26px 20px 70px}
+
+  .brandrow{display:flex;align-items:center;gap:13px;margin-bottom:26px}
+  .logo{height:34px;width:auto}
+  .brandname{font-weight:700;letter-spacing:.5px;font-size:15px}
+  .brandname small{display:block;font-size:8px;letter-spacing:2.5px;color:var(--muted);font-weight:400;text-transform:uppercase}
+
+  .badges{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+  .badge{font-size:11px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:4px 10px;border-radius:6px}
+  .badge.flash{background:var(--accent);color:#fff}
+  .badge.live{background:rgba(206,94,156,.12);border:1px solid var(--accent);color:var(--accent2)}
+  .badge.topic{background:var(--panel2);border:1px solid var(--line);color:var(--muted)}
+
+  h1{font-size:27px;line-height:1.22;letter-spacing:-.3px;margin:0 0 8px}
+  .meta{color:var(--muted);font-size:13px;margin-bottom:22px}
+
+  .bluf{background:linear-gradient(180deg,rgba(206,94,156,.10),rgba(206,94,156,.03));
+    border:1px solid var(--accent);border-left:4px solid var(--accent);border-radius:0 12px 12px 0;padding:16px 18px;margin-bottom:26px}
+  .bluf .h{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent2);margin-bottom:7px}
+  .bluf p{margin:0 0 10px;font-size:15.5px}
+  .bluf p:last-child{margin-bottom:0}
+
+  h2{font-size:15px;text-transform:uppercase;letter-spacing:1px;color:var(--accent2);margin:30px 0 12px;
+    border-bottom:1px solid var(--line);padding-bottom:8px}
+  p{margin:10px 0}
+  .lead{color:var(--text)}
+  strong{color:#fff}
+
+  .facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:6px 0}
+  @media(max-width:560px){.facts{grid-template-columns:1fr}}
+  .fact{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .fact .k{font-size:11px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted)}
+  .fact .v{font-size:14px;margin-top:3px}
+
+  .timeline{position:relative;margin:10px 0 6px;padding-left:22px}
+  .timeline::before{content:"";position:absolute;left:6px;top:4px;bottom:4px;width:2px;background:var(--line)}
+  .tl{position:relative;margin-bottom:15px}
+  .tl::before{content:"";position:absolute;left:-22px;top:5px;width:10px;height:10px;border-radius:50%;
+    background:var(--accent);box-shadow:0 0 0 3px rgba(206,94,156,.18)}
+  .tl .d{font-size:12px;font-weight:700;color:var(--accent2)}
+  .tl .e{font-size:14px;color:var(--muted)}
+
+  .shift{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);
+    border-radius:10px;padding:13px 16px;margin:10px 0}
+  .shift b{color:#fff}
+  .shift span{color:var(--muted)}
+
+  .foresight{background:var(--panel2);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:14px 0}
+  .foresight .h{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--accent2);margin-bottom:6px}
+  .foresight p{margin:0;color:var(--muted);font-size:14px}
+  .chip{display:inline-block;background:rgba(206,94,156,.12);border:1px solid var(--accent);color:var(--accent2);
+    font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;margin:2px 4px 2px 0}
+
+  ul.watch{list-style:none;padding:0;margin:8px 0}
+  ul.watch li{padding:9px 0 9px 24px;position:relative;border-bottom:1px solid var(--line);font-size:14px;color:var(--muted)}
+  ul.watch li::before{content:"\2192";position:absolute;left:0;color:var(--accent);font-weight:700}
+  ul.watch li b{color:#fff}
+
+  .sources{font-size:13px;color:var(--muted)}
+  .sources a{color:var(--accent2);text-decoration:none;border-bottom:1px solid var(--line)}
+  .sources a:hover{border-color:var(--accent2)}
+  .sources li{margin:5px 0}
+
+  footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;line-height:1.7}
+  .cta{display:inline-block;margin-top:14px;background:var(--accent);color:#fff;font-weight:600;font-size:14px;
+    padding:11px 20px;border-radius:10px;text-decoration:none}
+  .cta:hover{background:#d978ab}
+</style>
+</head>
+<body>
+<div class="topbar"></div>
+<div class="wrap">
+
+  <div class="brandrow">
+    <svg class="logo" viewBox="0 0 151.69 77.26" xmlns="http://www.w3.org/2000/svg" aria-label="Aunoo">
+      <path fill="#ecedf2" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+      <path fill="#ecedf2" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+      <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
+    </svg>
+    <div class="brandname">AUNOO<small>News-Intelligence</small></div>
+  </div>
+
+  <div class="badges">
+    <span class="badge flash">Situation Report</span>
+    <span class="badge live">Updated 2 Jul 2026</span>
+    <span class="badge topic">Disinformation &amp; Influence Operations</span>
+  </div>
+
+  <h1>Pro-AI influence operations, and the counter-narrative that recasts data-center opposition as foreign influence</h1>
+  <div class="meta">OSINT assessment compiled from named primary reporting and Aunoo news-intelligence</div>
+
+  <div class="bluf">
+    <div class="h">Bottom line up front</div>
+    <p>Two influence campaigns are running around the same fight over AI data centers. WIRED reported on <strong>1 May 2026</strong> that Build American AI, a dark-money group tied to the pro-AI super PAC Leading the Future, paid influencers to promote American AI and frame China as the threat. Reports from the <strong>Bitcoin Policy Institute</strong> and the group Power the Future then argued the reverse, that opposition to data centers is itself a China-linked foreign influence operation.</p>
+    <p>The evidence is not symmetric. The pro-AI influencer campaign is well documented. The claim that foreign actors drive anti-data-center opposition is <strong>not supported by the available evidence</strong>: OpenAI found no meaningful breakout for the China-origin activity it flagged, Graphika saw no scaled foreign operation, and a majority of the opposition is Republican-led. The BPI material is best interpreted as the policy-paper layer of a pro-AI counter-campaign, though no public evidence shows it is directly coordinated with that network.</p>
+  </div>
+
+  <h2>What happened</h2>
+  <p class="lead">WIRED documented a coordinated campaign in which Build American AI, tied to Leading the Future, paid lifestyle and political influencers, reportedly around $5,000 per TikTok video, to promote American AI and present China as the threat. The campaign sits in a large political-finance network: Axios reported Leading the Future raised more than $125 million, and the Financial Times sized the wider AI and crypto PAC environment at roughly $250 million to $300 million ahead of the midterms. OpenAI and Palantir deny corporate involvement, and OpenAI says it does not direct or fund Leading the Future and opposes astroturfing. Related reporting by Model Republic, corroborated in part by Tom's Hardware and The Verge, alleged an automated pseudo-news site staffed by AI "reporters" and bot-like amplification on X; those claims are treated here as credible leads rather than settled fact.</p>
+
+  <h2>The counter-narrative</h2>
+  <p class="lead">Beginning in mid-May, the Bitcoin Policy Institute published "Foreign Influence in the Campaign against American AI," followed by "The Singham Ground Game" on 29 June, arguing that opposition to data centers runs parallel to a China-linked campaign centered on Neville Roy Singham and the Party for Socialism and Liberation, and claiming roughly $23.6 billion in blocked investment. The framing moved quickly into official channels: House Energy and Commerce members, Senator Tom Cotton, and Representative John Moolenaar cited the reports to seek FBI and DOJ investigations, and investor Kevin O'Leary used a BPI graphic to allege foreign influence behind opposition to his own data-center project.</p>
+
+  <h2>Key facts</h2>
+  <div class="facts">
+    <div class="fact"><div class="k">Pro-AI campaign</div><div class="v">Build American AI paid influencers (WIRED, 1 May)</div></div>
+    <div class="fact"><div class="k">Funding network</div><div class="v">Leading the Future $125m+; AI lobby ~$250–300m</div></div>
+    <div class="fact"><div class="k">Corporate stance</div><div class="v">OpenAI, Palantir deny involvement</div></div>
+    <div class="fact"><div class="k">Counter-narrative</div><div class="v">BPI, Power the Future "foreign influence" reports</div></div>
+    <div class="fact"><div class="k">Official uptake</div><div class="v">GOP lawmakers seek FBI/DOJ probes</div></div>
+    <div class="fact"><div class="k">Counter-evidence</div><div class="v">No breakout (OpenAI); ~55% opposition GOP-led</div></div>
+  </div>
+
+  <h2>How the frame moved</h2>
+  <div class="timeline">
+    <div class="tl"><div class="d">Jan–Apr 2026</div><div class="e">Leading the Future raises $125m+; FT sizes AI/crypto PAC funding at ~$250–300m ahead of the midterms</div></div>
+    <div class="tl"><div class="d">Apr 2026</div><div class="e">Model Republic publishes the Acutus pseudo-news investigation; The Verge and Tom's Hardware pick it up</div></div>
+    <div class="tl"><div class="d">1 May 2026</div><div class="e">WIRED reports Build American AI paying influencers to spread pro-AI and China-threat messaging</div></div>
+    <div class="tl"><div class="d">18 May 2026</div><div class="e">BPI publishes Part I of the "Foreign Influence" report</div></div>
+    <div class="tl"><div class="d">4 Jun 2026</div><div class="e">Three GOP House members request FBI briefings, citing BPI and Power the Future</div></div>
+    <div class="tl"><div class="d">10 Jun 2026</div><div class="e">OpenAI's "Data Center Bandwagon" report: likely China-linked accounts, no meaningful breakout</div></div>
+    <div class="tl"><div class="d">10–11 Jun 2026</div><div class="e">Sen. Cotton and Rep. Moolenaar seek DOJ investigation, citing Singham and BPI</div></div>
+    <div class="tl"><div class="d">12 Jun 2026</div><div class="e">WIRED, "China Didn't Make Americans Hate Data Centers," reports expert skepticism</div></div>
+    <div class="tl"><div class="d">29–30 Jun 2026</div><div class="e">BPI publishes Part II and a press release amplifying the $23.6bn claim</div></div>
+  </div>
+
+  <h2>Why this matters</h2>
+  <div class="shift"><b>Venue shift.</b> <span>The counter-narrative recasts a local dispute about energy, water, land, and electricity prices as a national-security and counterintelligence matter, moving it toward the FBI, DOJ, and congressional oversight and raising the cost of ordinary civic opposition.</span></div>
+  <div class="shift"><b>Relocated accusation.</b> <span>After the pro-AI campaign was exposed, the counter-narrative moves the charge of manufactured activity onto opponents. That is the practical function the BPI material performs, whether or not it is coordinated.</span></div>
+  <div class="shift"><b>Weaponized concern.</b> <span>Foreign actors do test domestic grievances, and OpenAI found a real if minor attempt. The risk is stretching a legitimate monitoring concern into blanket suspicion of a broad domestic movement.</span></div>
+
+  <div class="foresight">
+    <div class="h">Where this sits in the Aunoo foresight</div>
+    <p>On Aunoo's tracking of the news coverage, reporting on AI-related influence operations peaked around 8 June and has since declined, so attention to this specific dispute is past its peak while the underlying data-center fight continues. The tone of that coverage is strongly negative and growing more so, with the sharpest shift on 23 June and no reversal in sight. Across reporting on influence operations more broadly, coverage converges on one mechanism in particular: influence conducted through legitimate-looking intermediaries rather than crude propaganda, which is what is visible on both sides of this dispute.</p>
+    <div style="margin-top:9px">
+      <span class="chip">Influence via intermediaries</span><span class="chip">Manufactured consent ▲</span><span class="chip">Counter-narrative framing ▲</span>
+    </div>
+  </div>
+
+  <h2>What to watch</h2>
+  <ul class="watch">
+    <li><b>Federal action</b> — whether any agency opens an inquiry; even a preliminary one would strengthen the counter-narrative regardless of its findings.</li>
+    <li><b>Attributable evidence</b> — any documentation tying named US campaigns to foreign funding, none of which exists in the public record so far.</li>
+    <li><b>Stack linkage</b> — reporting connecting the influencer, pseudo-news, and policy-paper layers through shared money or contractors.</li>
+    <li><b>Midterm intensification</b> — the AI PAC money is aimed at the 2026 elections and federal AI regulation, so both narratives are likely to sharpen.</li>
+  </ul>
+
+  <h2>Sources</h2>
+  <ul class="sources">
+    <li><a href="https://www.wired.com/story/super-pac-backed-by-openai-and-palantir-is-paying-tiktok-influencers-to-fear-monger-about-china/">WIRED — A Dark-Money Campaign Is Paying Influencers to Frame Chinese AI as a Threat</a></li>
+    <li><a href="https://www.wired.com/story/china-us-data-center-opposition/">WIRED — China Didn't Make Americans Hate Data Centers</a></li>
+    <li><a href="https://www.axios.com/2026/01/30/openai-a16z-cash-ai-super-pac">Axios — OpenAI's Brockman and a16z funnel cash to pro-AI super PAC</a></li>
+    <li><a href="https://openai.com/index/prc-linked-influence-operations-ai-debates/">OpenAI — PRC-linked influence operations are targeting AI debates in the US</a></li>
+    <li><a href="https://www.techradar.com/pro/republicans-call-on-fbi-to-investigate-anti-data-center-sentiment-as-a-chinese-psyop-despite-55-percent-of-data-center-opposition-headed-by-republicans">TechRadar — Republicans call on FBI to investigate anti-data-center sentiment, despite 55% of opposition being Republican-led</a></li>
+    <li><a href="https://www.foxnews.com/politics/sen-tom-cotton-urges-doj-probe-chinese-bid-kneecap-american-ai">Fox News — Sen. Tom Cotton urges DOJ to probe Chinese bid to "kneecap" American AI</a></li>
+    <li><a href="https://www.btcpolicy.org/articles/foreign-influence-campaign-against-american-ai-part-ii-singham-ground-game">Bitcoin Policy Institute — Foreign Influence, Part II: The Singham Ground Game</a></li>
+  </ul>
+
+  <a class="cta" href="#">Get the full situation report &rarr;</a>
+
+  <footer>
+    Compiled via Aunoo news-intelligence. Volume, sentiment, and consensus signals are derived from Aunoo's tracking of AI and disinformation news coverage. This bulletin synthesizes open-source reporting and should be verified against primary statements before use in decision-making. Attribution in influence operations is probabilistic; confidence levels are stated in the full report. &copy; Aunoo.
+  </footer>
+
+</div>
+</body>
+</html>
