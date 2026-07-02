@@ -50,6 +50,8 @@ None of this means foreign interference is imaginary. States do test and amplify
 
 A read on disinformation, coordinated influence operations, and media literacy. Researched and fact-checked with Aunoo.
 
+Read the full Aunoo situation report, with the timeline, source assessment, and confidence ratings, in the **[Aunoo Intelligence Situation Reports repository](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-07-pro-ai-influence-counter-narrative)**.
+
 **Powered by Aunoo — news intelligence with trust built in.** Aunoo scores every article on five trust signals before you even click: source bias, factual-reporting rating, AI-content detection, disinformation-network flags, and a quality score. You see how far to trust a story, not just what it claims.
 
 Try it, it's free → **[saas.aunoo.ai](https://saas.aunoo.ai/)**
