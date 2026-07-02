@@ -47,7 +47,7 @@ It would take hard evidence: minute-by-minute Palantir trading data from 30 June
 
 A read on disinformation, coordinated influence operations, and media literacy. Researched and fact-checked with Aunoo.
 
-Read the full Aunoo situation report, with the timeline, source assessment, and confidence ratings, in the **[Aunoo Intelligence Situation Reports repository](https://github.com/AuNooAI/situationreports/tree/main/reports/2026-07-palantir-onion-pentagon-satire)**.
+Read the full Aunoo situation report, with the timeline, source assessment, and confidence ratings, in the **[Aunoo Intelligence Situation Reports repository](https://github.com/AuNooAI/situationreports/blob/main/reports/2026-07-palantir-onion-pentagon-satire/sitrep.md)**.
 
 **Powered by Aunoo — news intelligence with trust built in.** Aunoo scores every article on five trust signals before you even click: source bias, factual-reporting rating, AI-content detection, disinformation-network flags, and a quality score. You see how far to trust a story, not just what it claims.
 
