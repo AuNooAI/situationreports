@@ -14,64 +14,23 @@
   <rect width="1200" height="675" fill="url(#bg)"/>
   <rect width="1200" height="7" fill="url(#bar)"/>
 
-  <g transform="translate(70,58) scale(0.5)">
+  <!-- centered logo mark -->
+  <g transform="translate(566,86) scale(0.46)">
     <path fill="#ecedf2" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
     <path fill="#ecedf2" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
     <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
   </g>
-  <text x="156" y="70" fill="#f1eaf0" font-size="24" font-weight="700" letter-spacing="0.5">AUNOO</text>
-  <text x="156" y="90" fill="#b79fb0" font-size="11" letter-spacing="3" font-weight="400">NEWS-INTELLIGENCE</text>
+  <text x="600" y="164" text-anchor="middle" fill="#b79fb0" font-size="12" letter-spacing="3" font-weight="400">AUNOO NEWS-INTELLIGENCE</text>
 
-  <text x="70" y="215" fill="#e98fc0" font-size="16" font-weight="700" letter-spacing="2">SITUATION REPORT · 2 JULY 2026</text>
-  <text x="70" y="272" fill="#ffffff" font-size="44" font-weight="700">Competing influence campaigns</text>
-  <text x="70" y="324" fill="#ffffff" font-size="44" font-weight="700">over America's AI data centers</text>
-  <text x="70" y="364" fill="#c9b7c4" font-size="19">A pro-AI group paid influencers to boost American AI. Then critics of</text>
-  <text x="70" y="390" fill="#c9b7c4" font-size="19">AI data centers were accused of working for China.</text>
+  <text x="600" y="258" text-anchor="middle" fill="#e98fc0" font-size="17" font-weight="700" letter-spacing="2.5">SITUATION REPORT &#183; 2 JULY 2026</text>
 
-  <line x1="110" y1="470" x2="1090" y2="470" stroke="#3a2c3e" stroke-width="2"/>
+  <text x="600" y="336" text-anchor="middle" fill="#ffffff" font-size="50" font-weight="700">Competing influence campaigns</text>
+  <text x="600" y="398" text-anchor="middle" fill="#ffffff" font-size="50" font-weight="700">over America's AI data centers</text>
 
-  <g text-anchor="middle">
-    <text x="110" y="446" fill="#e98fc0" font-size="14" font-weight="700">Jan-Apr</text>
-    <circle cx="110" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="110" y="502" fill="#c9b7c4" font-size="12">PAC funding</text>
-    <text x="110" y="518" fill="#c9b7c4" font-size="12">$250m+</text>
+  <rect x="560" y="434" width="80" height="4" rx="2" fill="#ce5e9c"/>
 
-    <text x="250" y="446" fill="#e98fc0" font-size="14" font-weight="700">1 May</text>
-    <circle cx="250" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="250" y="502" fill="#c9b7c4" font-size="12">WIRED: paid</text>
-    <text x="250" y="518" fill="#c9b7c4" font-size="12">influencers</text>
+  <text x="600" y="492" text-anchor="middle" fill="#c9b7c4" font-size="21">A pro-AI group paid influencers to boost American AI.</text>
+  <text x="600" y="522" text-anchor="middle" fill="#c9b7c4" font-size="21">Then critics of data centers were accused of aiding China.</text>
 
-    <text x="390" y="446" fill="#e98fc0" font-size="14" font-weight="700">18 May</text>
-    <circle cx="390" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="390" y="502" fill="#c9b7c4" font-size="12">BPI report</text>
-    <text x="390" y="518" fill="#c9b7c4" font-size="12">Part I</text>
-
-    <text x="530" y="446" fill="#e98fc0" font-size="14" font-weight="700">4 Jun</text>
-    <circle cx="530" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="530" y="502" fill="#c9b7c4" font-size="12">FBI briefings</text>
-    <text x="530" y="518" fill="#c9b7c4" font-size="12">sought</text>
-
-    <text x="670" y="446" fill="#e98fc0" font-size="14" font-weight="700">10 Jun</text>
-    <circle cx="670" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="670" y="502" fill="#c9b7c4" font-size="12">OpenAI: no</text>
-    <text x="670" y="518" fill="#c9b7c4" font-size="12">breakout</text>
-
-    <text x="810" y="446" fill="#e98fc0" font-size="14" font-weight="700">10-11 Jun</text>
-    <circle cx="810" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="810" y="502" fill="#c9b7c4" font-size="12">DOJ probe</text>
-    <text x="810" y="518" fill="#c9b7c4" font-size="12">sought</text>
-
-    <text x="950" y="446" fill="#e98fc0" font-size="14" font-weight="700">12 Jun</text>
-    <circle cx="950" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="950" y="502" fill="#c9b7c4" font-size="12">Experts</text>
-    <text x="950" y="518" fill="#c9b7c4" font-size="12">skeptical</text>
-
-    <text x="1090" y="446" fill="#e98fc0" font-size="14" font-weight="700">29 Jun</text>
-    <circle cx="1090" cy="470" r="8" fill="#ce5e9c"/>
-    <text x="1090" y="502" fill="#c9b7c4" font-size="12">BPI report</text>
-    <text x="1090" y="518" fill="#c9b7c4" font-size="12">Part II</text>
-  </g>
-
-  <line x1="70" y1="600" x2="1130" y2="600" stroke="#3a2c3e" stroke-width="1"/>
-  <text x="70" y="628" fill="#b79fb0" font-size="13">Compiled via Aunoo news-intelligence, based on available public data. Confidence levels stated in the full report.</text>
+  <text x="600" y="606" text-anchor="middle" fill="#8f7a89" font-size="13">Based on available public data. Confidence levels stated in the full report.</text>
 </svg>
