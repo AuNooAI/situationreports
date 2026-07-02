@@ -27,7 +27,10 @@ This repository holds two linked products:
 [Read the report »](reports/2026-06-bezos-fabricated-ai-water-quote/) — a misinformation incident (assessed LLM hallucination), not a coordinated actor.
 
 **Pro-AI influence operations and the "foreign influence" counter-narrative against data-center opposition** — 2 July 2026
-[Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/)
+[Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/sitrep.md)
+
+**The Onion's "Palantir Acquires Pentagon" satire misread as a market signal** — 2 July 2026
+[Read the report »](reports/2026-07-palantir-onion-pentagon-satire/sitrep.md) — a misinformation incident (satire misread as a trading signal), not a coordinated actor.
 
 ## Browse
 
