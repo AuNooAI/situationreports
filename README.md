@@ -18,13 +18,13 @@ This repository holds two linked products:
 ## Latest
 
 **US export-control suspension of Anthropic's Fable 5 and Mythos 5** — 14 June 2026
-[Read the report »](reports/2026-06-anthropic-fable-mythos-export-ban/)
+[Read the report »](reports/2026-06-anthropic-fable-mythos-export-ban/sitrep.md)
 
 **BlackCore (AMON MIRAGE): Israeli firm and the 2026 French election interference campaign** — 20 June 2026
-[Read the report »](reports/2026-06-blackcore-france-elections/) · [Actor profile »](actors/ACT-2026-BLACKCORE/profile.md)
+[Read the report »](reports/2026-06-blackcore-france-elections/sitrep.md) · [Actor profile »](actors/ACT-2026-BLACKCORE/profile.md)
 
 **Fabricated Jeff Bezos quote on prioritising AI water use over humans** — 22 June 2026
-[Read the report »](reports/2026-06-bezos-fabricated-ai-water-quote/) — a misinformation incident (assessed LLM hallucination), not a coordinated actor.
+[Read the report »](reports/2026-06-bezos-fabricated-ai-water-quote/sitrep.md) — a misinformation incident (assessed LLM hallucination), not a coordinated actor.
 
 **Pro-AI influence operations and the "foreign influence" counter-narrative against data-center opposition** — 2 July 2026
 [Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/sitrep.md)
