@@ -1,9 +1,13 @@
 # SITUATION REPORT: AfD "Alternita" — a party-run AI system for mass-producing far-right "rage bait"
 
 **Classification:** Unclassified · Open-source intelligence (OSINT)
+
 **As of:** 10 July 2026, 12:00 UTC
+
 **Prepared from:** Correctiv undercover investigation, as reported by The Irish Times (Derek Scally, 8 July 2026), supplemented by Aunoo news-intelligence
+
 **Subject:** The AfD's Alternita platform, which uses commercial AI models from Google, OpenAI, and Anthropic to turn far-right articles into ready-to-post social-media content, and the questions this raises about provider policy enforcement and unlabeled political content ahead of a September German state election
+
 **Tracking designation:** PANZER PARROT · actor profile [ACT-2026-PANZERPARROT](../../actors/ACT-2026-PANZERPARROT/profile.md)
 
 ---
