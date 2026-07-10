@@ -4,6 +4,7 @@
 **As of:** 10 July 2026, 12:00 UTC
 **Prepared from:** Correctiv undercover investigation, as reported by The Irish Times (Derek Scally, 8 July 2026), supplemented by Aunoo news-intelligence
 **Subject:** The AfD's Alternita platform, which uses commercial AI models from Google, OpenAI, and Anthropic to turn far-right articles into ready-to-post social-media content, and the questions this raises about provider policy enforcement and unlabeled political content ahead of a September German state election
+**Tracking designation:** PANZER PARROT (Aunoo)
 
 ---
 
@@ -11,7 +12,7 @@
 
 Germany's far-right Alternative for Germany (AfD) has built and begun piloting an in-house content system called Alternita that converts far-right news articles into ready-to-post "rage bait" for all major social platforms in a few minutes. An undercover investigation by the German outlet Correctiv, reported by The Irish Times on 8 July 2026, documented the tool generating posts that called for forced deportations, described as "remigration," and a post warning of an LGBT "rainbow dictatorship" accompanied by an AI-generated image of a burning rainbow flag. Correctiv examined Alternita's source code and found it draws on three leading commercial AI engines: Google Gemini, OpenAI's ChatGPT, and Anthropic's Claude.
 
-The platform is registered to the AfD's general secretary, Hans-Holger Malcomeß, and according to Correctiv is already in use on the social-media channels of party co-leader Alice Weidel, where not all of the AI-generated output is labeled as such. Correctiv asked the three technology companies whether this use complies with their terms of service. Google and OpenAI said they are each examining Alternita's use of their engines. Anthropic did not reply to Correctiv's query.
+Aunoo tracks this campaign as PANZER PARROT. The platform is registered to the AfD's general secretary, Hans-Holger Malcomeß, and according to Correctiv is already in use on the social-media channels of party co-leader Alice Weidel, where not all of the AI-generated output is labeled as such. Correctiv asked the three technology companies whether this use complies with their terms of service. Google and OpenAI said they are each examining Alternita's use of their engines. Anthropic did not reply to Correctiv's query.
 
 The significance is that this is centralized, party-operated production of automated political propaganda built on mainstream AI tools. Its stated aim is to let AfD headquarters steer messaging while its decentralized base keeps posting, and to extend an online advantage the party already holds. It arrives before a September state-parliament election in an eastern German state where the AfD is polling around 40 percent, and it is an early test of whether AI providers' usage policies can be enforced in practice.
 
