@@ -1,0 +1,60 @@
+indicators:
+  - id: IOC-1
+    type: other
+    value: "Alternita"
+    status: confirmed
+    confidence: high
+    first_seen: 2026-07
+    last_seen: 2026-07
+    state: active
+    context: "Content-generation platform that turns uploaded articles into ready-to-post social content and AI images. Registered to AfD general secretary Hans-Holger Malcomeß. Source code draws on Google Gemini, OpenAI ChatGPT, and Anthropic Claude."
+    source: "Correctiv / The Irish Times, 2026-07-08"
+    cluster: alternita-pilot
+
+  - id: IOC-2
+    type: persona
+    value: "Karl Ranseier"
+    status: confirmed
+    confidence: high
+    first_seen: 2026-07
+    last_seen: 2026-07
+    state: active
+    context: "Satirical fictional 'federal minister for remigration' account, reportedly operated by Mario Hau and followed by Alice Weidel; posts AI-generated images (e.g. a 'Ministry for Truth', men boarding a train to a 'deportation airport')."
+    source: "Correctiv / The Irish Times, 2026-07-08"
+    cluster: alternita-pilot
+
+  - id: IOC-3
+    type: handle
+    value: "AfD official channels (incl. Alice Weidel)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2026-07
+    last_seen: 2026-07
+    state: active
+    context: "Distribution surface for Alternita output; not all posts labelled as AI-generated."
+    source: "Correctiv / The Irish Times, 2026-07-08"
+    cluster: alternita-pilot
+
+  - id: IOC-4
+    type: other
+    value: "#Homeland #Identity #That'sWhyAfD (translated)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2026-07
+    last_seen: 2026-07
+    state: active
+    context: "Recurring hashtag cluster appended to generated posts; a candidate signature for coordinated-behaviour clustering."
+    source: "Correctiv / The Irish Times, 2026-07-08"
+    cluster: alternita-pilot
+
+  - id: IOC-5
+    type: other
+    value: "Nius (content feed input)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2026-07
+    last_seen: 2026-07
+    state: active
+    context: "AfD-friendly far-right outlet used as an ingested content source by Alternita. Listed as an input, not an actor asset."
+    source: "Correctiv / The Irish Times, 2026-07-08"
+    cluster: alternita-pilot

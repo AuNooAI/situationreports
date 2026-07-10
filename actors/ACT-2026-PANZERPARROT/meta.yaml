@@ -1,0 +1,33 @@
+id: ACT-2026-PANZERPARROT
+name: AfD Alternita operation
+codename: PANZER PARROT
+aliases: [Alternita]
+actor_type: grassroots-astroturf
+country_nexus: [Germany]
+operational_status: active
+profile_status: tentative
+attribution_confidence: high
+first_observed: 2026-07
+last_active: 2026-07
+last_updated: 2026-07-10
+tlp: CLEAR
+motivations: [domestic-political, ideological]
+target_sectors: [elections, public-opinion, minority-communities]
+target_geographies: [DE]
+frameworks: [DISARM, AUNOO-8T]
+aunoo_tactic_vector:
+  identity_reframing: 3
+  legitimacy_inversion: 1
+  severity_minimization: 0
+  category_reframing: 1
+  whataboutism: 0
+  motive_substitution: 0
+  agent_swap: 0
+  cause_effect_reversal: 0
+related_sitreps:
+  - SITREP:2026-07-afd-alternita-ai-ragebait
+related_actors: []
+source_count: 2
+admiralty_high_water: B2
+analyst: "Aunoo Intelligence"
+review_status: in-review
