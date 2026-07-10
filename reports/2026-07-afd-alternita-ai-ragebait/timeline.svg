@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ce5e9c"/><stop offset="0.55" stop-color="#e98fc0"/><stop offset="1" stop-color="#ce5e9c"/></linearGradient></defs>
+  <rect width="900" height="800" fill="#100a10"/>
+  <rect width="900" height="6" fill="url(#bar)"/>
+  <g transform="translate(54,52) scale(0.42)">
+    <path fill="#ecedf2" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+    <path fill="#ecedf2" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+    <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
+  </g>
+  <text x="128" y="60" fill="#ecedf2" font-size="20" font-weight="700" letter-spacing="0.5">AUNOO</text>
+  <text x="128" y="76" fill="#b79fb0" font-size="10" letter-spacing="2.5">NEWS-INTELLIGENCE</text>
+  <text x="54" y="128" fill="#e98fc0" font-size="13" font-weight="700" letter-spacing="1.5">SITUATION REPORT &#183; TIMELINE</text>
+  <text x="54" y="160" fill="#c9b7c4" font-size="27" font-weight="700">Timeline: the AfD's Alternita</text>
+  <text x="54" y="192" fill="#c9b7c4" font-size="27" font-weight="700">AI content system</text>
+  <line x1="66" y1="232" x2="66" y2="732" stroke="#3a2c3e" stroke-width="2"/>
+  <circle cx="66" cy="244" r="7" fill="#ce5e9c"/>
+  <text x="94" y="241" fill="#e98fc0" font-size="15" font-weight="700">Ongoing</text>
+  <text x="94" y="264" fill="#c9b7c4" font-size="15">The AfD holds a large online lead over rivals on major platforms</text>
+  <circle cx="66" cy="326" r="7" fill="#ce5e9c"/>
+  <text x="94" y="323" fill="#e98fc0" font-size="15" font-weight="700">Week of 6 Jul 2026</text>
+  <text x="94" y="346" fill="#c9b7c4" font-size="15">Alternita launches in a pilot phase</text>
+  <circle cx="66" cy="408" r="7" fill="#ce5e9c"/>
+  <text x="94" y="405" fill="#e98fc0" font-size="15" font-weight="700">8 Jul 2026</text>
+  <text x="94" y="428" fill="#c9b7c4" font-size="15">Correctiv exposes the tool; The Irish Times reports it</text>
+  <circle cx="66" cy="490" r="7" fill="#ce5e9c"/>
+  <text x="94" y="487" fill="#e98fc0" font-size="15" font-weight="700">8 Jul 2026</text>
+  <text x="94" y="510" fill="#c9b7c4" font-size="15">Google and OpenAI say they are examining the use; Anthropic silent</text>
+  <circle cx="66" cy="572" r="7" fill="#ce5e9c"/>
+  <text x="94" y="569" fill="#e98fc0" font-size="15" font-weight="700">September 2026</text>
+  <text x="94" y="592" fill="#c9b7c4" font-size="15">State-parliament election in an eastern German state (AfD ~40%)</text>
+  <circle cx="66" cy="654" r="7" fill="#ce5e9c"/>
+  <text x="94" y="651" fill="#e98fc0" font-size="15" font-weight="700">2027</text>
+  <text x="94" y="674" fill="#c9b7c4" font-size="15">Planned full implementation of Alternita</text>
+  <line x1="54" y1="756" x2="846" y2="756" stroke="#3a2c3e" stroke-width="1"/>
+  <text x="54" y="778" fill="#b79fb0" font-size="12">Compiled via Aunoo news-intelligence, from the Correctiv investigation. As of 10 July 2026.</text>
+</svg>
