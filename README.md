@@ -30,7 +30,7 @@ This repository holds two linked products:
 [Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/)
 
 **AfD "Alternita": a party-run AI system for mass-producing far-right "rage bait"** — 10 July 2026
-[Read the report »](reports/2026-07-afd-alternita-ai-ragebait/)
+[Read the report »](reports/2026-07-afd-alternita-ai-ragebait/sitrep.md)
 
 ## Browse
 
