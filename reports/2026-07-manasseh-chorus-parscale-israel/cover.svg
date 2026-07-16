@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#140b14"/><stop offset="1" stop-color="#1c111f"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ce5e9c"/><stop offset="0.55" stop-color="#e98fc0"/><stop offset="1" stop-color="#ce5e9c"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="7" fill="url(#bar)"/>
+  <g transform="translate(566,86) scale(0.46)">
+    <path fill="#ecedf2" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+    <path fill="#ecedf2" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+    <circle fill="#ce5e9c" cx="16.54" cy="60.72" r="16.54"/>
+  </g>
+  <text x="600" y="164" text-anchor="middle" fill="#b79fb0" font-size="12" letter-spacing="3">AUNOO NEWS-INTELLIGENCE</text>
+  <text x="600" y="256" text-anchor="middle" fill="#e98fc0" font-size="17" font-weight="700" letter-spacing="2.5">SITUATION REPORT &#183; 14 JULY 2026</text>
+  <text x="600" y="334" text-anchor="middle" fill="#ffffff" font-size="45" font-weight="700">An Israel-funded influencer op</text>
+  <text x="600" y="390" text-anchor="middle" fill="#ffffff" font-size="45" font-weight="700">aimed at the American right</text>
+  <rect x="560" y="427" width="80" height="4" rx="2" fill="#ce5e9c"/>
+  <text x="600" y="485" text-anchor="middle" fill="#c9b7c4" font-size="20">Brad Parscale's Clock Tower X, paid $1.5M a month by Israel.</text>
+  <text x="600" y="513" text-anchor="middle" fill="#c9b7c4" font-size="20">Aunoo tracks it as Manasseh Chorus.</text>
+  <text x="600" y="606" text-anchor="middle" fill="#8f7a89" font-size="13">Based on TIME's investigation and the FARA filings it reviewed. Confidence levels in the full report.</text>
+</svg>

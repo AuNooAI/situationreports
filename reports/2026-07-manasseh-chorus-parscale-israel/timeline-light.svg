@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="800" viewBox="0 0 900 800" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d6346c"/><stop offset="0.55" stop-color="#d6346c"/><stop offset="1" stop-color="#d6346c"/></linearGradient></defs>
+  <rect width="900" height="800" fill="#ffffff"/>
+  <rect width="900" height="6" fill="url(#bar)"/>
+  <g transform="translate(54,52) scale(0.42)">
+    <path fill="#0f172a" d="M41.73,35.36v-.15c0-10.23-5.99-13.3-13.15-13.3-6.58,0-10.81,3.07-13.88,6.28L.52,14.03C5.93,7.6,16.74,0,32.82,0c20.17,0,35.22,9.06,35.22,34.78v40.45h-25.63l-.68-39.86Z"/>
+    <path fill="#0f172a" d="M125.35,2.05h26.34v73.16h-25.02v-7.02c-7.32,6-12.58,9.07-22.39,9.07-14.05,0-24.87-7.32-24.87-26.92V2.05h26.34v42.58c0,6,2.49,8.34,7.46,8.34,4.54,0,7.46-2.05,11.12-4.97l1.02-.88V2.05Z"/>
+    <circle fill="#d6346c" cx="16.54" cy="60.72" r="16.54"/>
+  </g>
+  <text x="128" y="60" fill="#0f172a" font-size="20" font-weight="700" letter-spacing="0.5">AUNOO</text>
+  <text x="128" y="76" fill="#5b6472" font-size="10" letter-spacing="2.5">NEWS-INTELLIGENCE</text>
+  <text x="54" y="128" fill="#d6346c" font-size="13" font-weight="700" letter-spacing="1.5">SITUATION REPORT &#183; TIMELINE</text>
+  <text x="54" y="160" fill="#1e2430" font-size="27" font-weight="700">Timeline: Manasseh Chorus</text>
+  <text x="54" y="192" fill="#1e2430" font-size="27" font-weight="700">(Clock Tower X / Parscale)</text>
+  <line x1="66" y1="232" x2="66" y2="732" stroke="#e2e5ec" stroke-width="2"/>
+  <circle cx="66" cy="244" r="7" fill="#d6346c"/>
+  <text x="94" y="241" fill="#d6346c" font-size="15" font-weight="700">May 2025</text>
+  <text x="94" y="264" fill="#1e2430" font-size="15">Charlie Kirk warns Netanyahu: anti-Israel sentiment on the right</text>
+  <text x="94" y="284" fill="#1e2430" font-size="15">is a "5 alarm fire"</text>
+  <circle cx="66" cy="338" r="7" fill="#d6346c"/>
+  <text x="94" y="335" fill="#d6346c" font-size="15" font-weight="700">Fall 2025</text>
+  <text x="94" y="358" fill="#1e2430" font-size="15">Israel's Foreign Ministry decides hasbara is not enough</text>
+  <circle cx="66" cy="412" r="7" fill="#d6346c"/>
+  <text x="94" y="409" fill="#d6346c" font-size="15" font-weight="700">September 2025</text>
+  <text x="94" y="432" fill="#1e2430" font-size="15">Havas engages Clock Tower X for Israel (FARA); $1.5M per month</text>
+  <circle cx="66" cy="486" r="7" fill="#d6346c"/>
+  <text x="94" y="483" fill="#d6346c" font-size="15" font-weight="700">March 2026</text>
+  <text x="94" y="506" fill="#1e2430" font-size="15">Influenceable accused of an undisclosed "soda industry" campaign</text>
+  <circle cx="66" cy="560" r="7" fill="#d6346c"/>
+  <text x="94" y="557" fill="#d6346c" font-size="15" font-weight="700">17 June 2026</text>
+  <text x="94" y="580" fill="#1e2430" font-size="15">Post-ceasefire, MAGA influencers turn on Trump; a US official</text>
+  <text x="94" y="600" fill="#1e2430" font-size="15">traces the pattern to Parscale's network</text>
+  <circle cx="66" cy="654" r="7" fill="#d6346c"/>
+  <text x="94" y="651" fill="#d6346c" font-size="15" font-weight="700">13 July 2026</text>
+  <text x="94" y="674" fill="#1e2430" font-size="15">TIME publishes its investigation</text>
+  <line x1="54" y1="756" x2="846" y2="756" stroke="#e2e5ec" stroke-width="1"/>
+  <text x="54" y="778" fill="#5b6472" font-size="12">Compiled via Aunoo news-intelligence, from TIME's investigation. As of 14 July 2026.</text>
+</svg>
