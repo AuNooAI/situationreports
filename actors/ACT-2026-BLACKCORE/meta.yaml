@@ -11,7 +11,7 @@ profile_status: tentative
 attribution_confidence: moderate
 first_observed: 2026-03
 last_active: 2026-06
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, data-harvesting]
 target_sectors: [elections, political-candidates, civil-society, pro-palestine-advocacy]
@@ -38,7 +38,7 @@ related_actors:
     note: "Same genre (Israeli influence-for-hire); no established operational link."
   - id: ACT-2026-MANASSEHCHORUS
     relationship: comparison
-    note: "Counterpart Israel-nexus influence operation with an inverted method: an overt, FARA-registered influencer network (Clock Tower X / Parscale) versus BlackCore's covert fabrication vendor. No established operational link."
+    note: "Methodological comparison only: contrasts BlackCore's covert fabrication vendor model with an overt, FARA-registered contract network (Clock Tower X / Parscale). No operational link and no shared-sponsor claim."
 
 # Named entities with resolver-style status (auto|confirmed|ambiguous|unresolved)
 entities:
