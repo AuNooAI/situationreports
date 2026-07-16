@@ -1,0 +1,84 @@
+indicators:
+  - id: IOC-1
+    type: company
+    value: "Clock Tower X"
+    status: confirmed
+    confidence: high
+    first_seen: 2025-09
+    last_seen: 2026-07
+    state: active
+    context: "Brad Parscale's firm; FARA-registered contractor for the State of Israel via the agency Havas ($1.5M/month)."
+    source: "TIME / FARA filings, 2026-07-13"
+    cluster: manasseh-chorus
+
+  - id: IOC-2
+    type: company
+    value: "Influenceable"
+    status: confirmed
+    confidence: high
+    first_seen: 2025
+    last_seen: 2026-07
+    state: active
+    context: "Influencer-marketing firm in the Parscale network (minority stake). Documented pay-per-reach model; named in the March 2026 'soda industry' coordinated-post episode."
+    source: "TIME, 2026-07-13"
+    cluster: manasseh-chorus
+
+  - id: IOC-3
+    type: company
+    value: "Campaign Nucleus"
+    status: confirmed
+    confidence: high
+    first_seen: 2025
+    last_seen: 2026-07
+    state: active
+    context: "Parscale firm within the interconnected network overseeing the messaging operation."
+    source: "TIME, 2026-07-13"
+    cluster: manasseh-chorus
+
+  - id: IOC-4
+    type: fake-outlet
+    value: "PaxPoint.org"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2025
+    last_seen: 2026-07
+    state: active
+    context: "Website reported to be built less for human readers than for AI systems synthesizing information, to shape chatbot outputs on Israel."
+    source: "TIME, 2026-07-13"
+    cluster: ai-seeding
+
+  - id: IOC-5
+    type: fake-outlet
+    value: "FactSignal.org"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2025
+    last_seen: 2026-07
+    state: active
+    context: "Website reported to be built for AI ingestion rather than human readers, part of the AI-characterization effort."
+    source: "TIME, 2026-07-13"
+    cluster: ai-seeding
+
+  - id: IOC-6
+    type: other
+    value: "Private influencer group chats (pay-per-reach)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2025-09
+    last_seen: 2026-07
+    state: active
+    context: "Method: suggested language distributed to conservative influencers via private group chats; compensation by impressions/engagement (documented example: $2,250 base + $1/1,000 views up to 2M)."
+    source: "TIME, 2026-07-13"
+    cluster: manasseh-chorus
+
+  - id: IOC-7
+    type: other
+    value: "Near-identical coordinated post cluster ('soda industry', Mar 2026)"
+    status: confirmed
+    confidence: moderate
+    first_seen: 2026-03
+    last_seen: 2026-03
+    state: inactive
+    context: "Behavioural signature: many MAGA accounts posting strikingly similar messages, surfaced by Nick Sortor. Illustrative of the coordination method, not the Israel contract."
+    source: "TIME, 2026-07-13"
+    cluster: manasseh-chorus

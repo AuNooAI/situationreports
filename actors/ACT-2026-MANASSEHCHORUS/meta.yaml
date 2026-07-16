@@ -1,0 +1,35 @@
+id: ACT-2026-MANASSEHCHORUS
+name: Clock Tower X (Parscale influence network)
+codename: MANASSEH CHORUS
+aliases: [Clock Tower X, Campaign Nucleus, Influenceable]
+actor_type: influence-ops-vendor
+country_nexus: [United States, Israel]
+operational_status: active
+profile_status: tentative
+attribution_confidence: high
+first_observed: 2025-09
+last_active: 2026-07
+last_updated: 2026-07-14
+tlp: CLEAR
+motivations: [contract-hire, geopolitical-narrative, reputation-management]
+target_sectors: [public-opinion, us-conservatives, ai-information-systems]
+target_geographies: [US]
+frameworks: [DISARM, AUNOO-8T]
+aunoo_tactic_vector:
+  legitimacy_inversion: 3
+  severity_minimization: 0
+  category_reframing: 1
+  whataboutism: 0
+  identity_reframing: 1
+  motive_substitution: 0
+  agent_swap: 1
+  cause_effect_reversal: 0
+related_sitreps:
+  - SITREP:2026-07-manasseh-chorus-parscale-israel
+related_actors:
+  - ACT-2026-BLACKCORE
+  - ACT-2026-TEAMJORGE
+source_count: 2
+admiralty_high_water: B2
+analyst: "Aunoo Intelligence"
+review_status: in-review
