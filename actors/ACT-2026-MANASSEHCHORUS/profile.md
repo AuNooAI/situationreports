@@ -10,7 +10,7 @@ profile_status: tentative
 attribution_confidence: high
 first_observed: 2025-09
 last_active: 2026-07
-last_updated: 2026-07-14
+last_updated: 2026-07-15
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, reputation-management]
 target_sectors: [public-opinion, us-conservatives, ai-information-systems]
@@ -28,9 +28,13 @@ aunoo_tactic_vector:
 related_sitreps:
   - SITREP:2026-07-manasseh-chorus-parscale-israel
 related_actors:
-  - ACT-2026-BLACKCORE
-  - ACT-2026-TEAMJORGE
-source_count: 2
+  - id: ACT-2026-BLACKCORE
+    relationship: comparison        # comparison | shared-infra | lineage | operational-link
+    note: "Methodological comparison only: overt FARA-registered contract network vs covert fabrication vendor. No operational link and no shared-attribution claim; BlackCore's commissioning client is unattributed."
+  - id: ACT-2026-TEAMJORGE
+    relationship: comparison
+    note: "Same broad genre of influence-for-hire; different tradecraft and nexus. No operational link."
+source_count: 3
 admiralty_high_water: B2
 analyst: "Aunoo Intelligence"
 review_status: in-review
@@ -40,15 +44,15 @@ review_status: in-review
 
 **Classification:** Unclassified · OSINT · **TLP:**CLEAR
 **Code name:** MANASSEH CHORUS
-**As of:** 14 July 2026
+**As of:** 15 July 2026
 **Profile status:** tentative · **Attribution confidence:** high
-**Prepared from:** 2 sources · Admiralty high-water B2 (TIME investigation anchored on reviewed FARA filings)
+**Prepared from:** one principal investigation (TIME), the primary FARA filings TIME reviewed, and secondary reporting corroborating the political reaction · Admiralty high-water B2
 
 ## Bottom line up front (BLUF)
 
-MANASSEH CHORUS is Aunoo's designation for the influence operation run by Brad Parscale's firm Clock Tower X on behalf of the State of Israel. TIME reported on 13 July 2026, from FARA filings it reviewed, that the agency Havas engaged Clock Tower X in September 2025 to produce and amplify pro-Israel content for young American conservatives at $1.5 million a month, with deliverables including at least 100 content pieces monthly, 50 million monthly impressions, and an explicit effort to shape how ChatGPT, Claude, and Gemini characterize Israel and the war. The mechanism, per three people familiar with it, is a network of Parscale firms (Clock Tower X, Campaign Nucleus, Influenceable) that feed conservative influencers suggested language through private group chats and pay them by reach, producing what looks like an organic conversation.
+MANASSEH CHORUS is Aunoo's designation for the influence operation run by Brad Parscale's firm Clock Tower X on behalf of the State of Israel. TIME reported on 13 July 2026, from FARA filings it reviewed, that the agency Havas engaged Clock Tower X in September 2025 to produce and amplify pro-Israel content for young American conservatives at $1.5 million a month. The registered terms include at least 100 content pieces a month and 50 million monthly impressions, plus an explicit effort to shape how the major AI assistants characterize Israel and the war. The mechanism, per three people familiar with it, is a network of Parscale firms (Clock Tower X, Campaign Nucleus, Influenceable) that feed conservative influencers suggested language through private group chats and pay them by reach, producing what looks like an organic conversation.
 
-Attribution to Parscale and to the Israeli sponsor is high, because the contract is FARA-registered and Parscale confirms the campaign. The profile is held at tentative and in-review because the picture currently rests on a single investigative outlet. The defining feature is structural: an overt, registered contract sitting on top of a mechanism of coordinated, undisclosed amplification. That inverts the covert-vendor model of [BlackCore / AMON MIRAGE](../ACT-2026-BLACKCORE/profile.md), with which it shares an Israel nexus and a Gaza information-war objective.
+Attribution to Parscale and to the Israeli sponsor is high, because the contract is FARA-registered and Parscale confirms the campaign. The profile is held at tentative and in-review because the core picture currently rests on a single principal investigation. The defining feature is structural: a disclosed, FARA-registered contract combined with allegedly undisclosed downstream amplification, a combination that is harder to categorize than either a covert network or a labeled advertisement.
 
 The code name reflects the nexus and the method. MANASSEH, a notoriously wicked king of Judah, signals the Israel sponsorship in the house convention; CHORUS is the paid influencer network singing the same script in apparent independence.
 
@@ -111,11 +115,11 @@ The selection logic is audience-based rather than target-based: young American c
 
 ## Modus operandi
 
-An overt, FARA-registered contract funds a mechanism of coordinated, undisclosed amplification. Parscale's firms produce pro-Israel content at volume, then distribute suggested language to conservative influencers through private group chats and pay them by the reach they generate, so the messaging surfaces through voices the audience already trusts and reads as organic. The operation also builds AI-optimized websites intended to shape chatbot outputs, and, per the draft agreement, contemplated distribution through the Salem conservative-media ecosystem. The March 2026 "soda industry" episode, in which many MAGA accounts posted near-identical messages, is a visible instance of the same coordination pattern.
+A disclosed, FARA-registered contract sits alongside a reported influencer-amplification network, and the relationship between the two funding streams is disputed. TIME reported, citing three people familiar with the campaign, that Parscale's firms produce pro-Israel content at volume, then distribute suggested language to conservative influencers through private group chats and compensate them by the reach they generate, so the messaging surfaces through voices the audience already trusts and reads as organic. Parscale says none of the FARA-registered money paid influencers. The operation also built AI-optimized websites intended to shape chatbot outputs, and, per the draft agreement, contemplated distribution through the Salem conservative-media ecosystem. The March 2026 "soda industry" episode, in which many MAGA accounts posted near-identical messages, is a visible instance of the same coordination pattern.
 
 ## TTPs
 
-**(a) DISARM.** Predominantly **coordinated inauthentic amplification and astroturfing**: undisclosed paid coordination of influencers to simulate organic grassroots consensus, narrative seeding, and paid content. A distinctive technique is **content optimization for AI ingestion**, creating web properties (PaxPoint.org, FactSignal.org) built to shape how AI systems synthesize a topic. Fabrication of the BlackCore kind (fake personas, fake charities, synthetic smears) is not documented here; the deception is in the concealed sponsorship and coordination, not in invented events.
+**(a) DISARM.** Best fit is **suspected coordinated, undisclosed amplification**: reportedly undisclosed paid coordination of influencers to simulate organic grassroots consensus, plus narrative seeding and paid content. The influencers themselves may be genuine people expressing views they already hold; the alleged deception concerns sponsorship and coordination, not fabricated events. A distinctive technique is **content optimization for AI ingestion**, creating web properties (PaxPoint.org, FactSignal.org) built to shape how AI systems synthesize a topic.
 
 **(b) MITRE ATT&CK.** Poor fit and not forced. No compromise of victim systems is involved. Noted only to record the non-fit, per the schema.
 
@@ -132,8 +136,8 @@ Structured observables are in `indicators.yaml` (`IOC-1`…). In summary: the fi
 
 ## Relationships
 
-- **ACT-2026-BLACKCORE (BlackCore / AMON MIRAGE)** — comparison and counterpart. Shared Israel nexus and Gaza information-war objective; inverted method (covert fabrication vendor vs overt-contract influencer network). No established operational link.
-- **ACT-2026-TEAMJORGE (Team Jorge)** — comparison only; same broad genre of influence-for-hire, different tradecraft and nexus.
+- **ACT-2026-BLACKCORE (BlackCore / AMON MIRAGE)** — methodological comparison only. Contrasts an overt, FARA-registered contract network with a covert fabrication vendor. No established operational link, and no shared-attribution claim: BlackCore's commissioning client is unattributed (assessed at low confidence in its own profile), so this comparison concerns method, not a common sponsor or objective.
+- **ACT-2026-TEAMJORGE (Team Jorge)** — comparison only; same broad genre of influence-for-hire, different tradecraft and nexus. No operational link.
 
 ## Detection & monitoring guidance (Aunoo platform)
 
@@ -145,15 +149,17 @@ Single best early-warning signal: reporting or filings that name the specific in
 
 ## Source assessment & confidence
 
-Anchored on a single high-factuality investigation (TIME) working from primary FARA documents, with partial corroboration from Parscale's on-record confirmation and Clock Tower X's own marketing language. The contract and its terms are **confirmed**; the influencer-amplification mechanism is **moderately** supported (three anonymous sources plus a prior visible example); the anti-Trump effect is **contested**. Because corroboration is currently limited to one outlet, the profile stays at `review_status: in-review` below the schema's three-source publish bar. Attribution would strengthen with independent reporting, released influencer contracts, a regulatory inquiry, or a provider statement on the AI-targeting.
+Anchored on a single principal investigation (TIME) working from primary FARA documents it reviewed, with partial corroboration from Parscale's on-record confirmation and Clock Tower X's own marketing language. TIME plus the filings it reviewed is effectively one investigation drawing on primary documents, not two independent reviews. On 15 July 2026, VP JD Vance's on-record remarks (reported by The Independent and others) corroborated high-level U.S. concern and the political dispute, but not the payment mechanism. The contract and its terms are **confirmed**; the influencer-amplification mechanism is **moderately** supported (three anonymous sources plus a prior visible example); the anti-Trump effect is **contested**. Because independent corroboration of the mechanism is still absent, the profile stays at `review_status: in-review` below the schema's three-source publish bar. Attribution would strengthen with independent reporting on the mechanism, released influencer contracts, a regulatory inquiry, or a provider statement on the AI-targeting.
 
 ## Changelog
 
 | Date | Change |
 | :-- | :-- |
-| 2026-07-14 | Initial profile created at `tentative` / attribution `high`. Code name MANASSEH CHORUS assigned. Cross-linked to BlackCore as counterpart. |
+| 2026-07-14 | Initial profile created at `tentative` / attribution `high`. Code name MANASSEH CHORUS assigned. |
+| 2026-07-15 | Evidentiary review: softened mechanism language to reported/alleged; recast BlackCore as methodological comparison only (removed shared-nexus/objective claim); added JD Vance (15 Jul) political-reaction update; clarified single-principal-investigation sourcing. |
 
 ## Sources
 
 1. [TIME — Trump's Former Campaign Manager Is Running an Influence Operation for Israel](https://time.com/article/2026/07/13/brad-parscale-israel-influence-operation/) (13 July 2026, corrected 14 July 2026). Admiralty B2.
-2. Foreign Agents Registration Act (FARA) filings for the Havas / Clock Tower X engagement, as reviewed by TIME (primary documents). Admiralty B2.
+2. Foreign Agents Registration Act (FARA) filings for the Havas / Clock Tower X engagement, as reviewed by TIME (primary documents; not independently obtained by Aunoo). Admiralty B2.
+3. [The Independent — Vance tells Joe Rogan some Israeli leaders want conflict with Iran to continue 'indefinitely'](https://www.independent.co.uk/news/world/americas/us-politics/jd-vance-joe-rogan-israel-iran-war-b3015839.html) (15 July 2026). Corroborates the political reaction only, not the payment mechanism. Admiralty B3.
