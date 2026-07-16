@@ -11,7 +11,7 @@ profile_status: tentative
 attribution_confidence: moderate
 first_observed: 2026-03
 last_active: 2026-06
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, data-harvesting]
 target_sectors: [elections, political-candidates, civil-society, pro-palestine-advocacy]
@@ -36,9 +36,6 @@ related_actors:
   - id: ACT-2026-TEAMJORGE
     relationship: comparison        # comparison | shared-infra | lineage | operational-link
     note: "Same genre (Israeli influence-for-hire); no established operational link."
-  - id: ACT-2026-MANASSEHCHORUS
-    relationship: comparison
-    note: "Methodological comparison only: contrasts BlackCore's covert fabrication vendor model with an overt, FARA-registered contract network (Clock Tower X / Parscale). No operational link and no shared-sponsor claim."
 
 # Named entities with resolver-style status (auto|confirmed|ambiguous|unresolved)
 entities:

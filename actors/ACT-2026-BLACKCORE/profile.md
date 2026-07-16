@@ -10,7 +10,7 @@ profile_status: tentative
 attribution_confidence: moderate
 first_observed: 2026-03
 last_active: 2026-06
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, data-harvesting]
 target_sectors: [elections, political-candidates, civil-society, pro-palestine-advocacy]
@@ -29,7 +29,6 @@ related_sitreps:
   - SITREP:2026-06-blackcore-france-elections
 related_actors:
   - ACT-2026-TEAMJORGE
-  - ACT-2026-MANASSEHCHORUS
 source_count: 14
 admiralty_high_water: B2
 analyst: "Aunoo Intelligence"
@@ -217,7 +216,6 @@ Fake pro-Palestinian aid charity (web + social + paid Meta ads) built to harvest
 
 - **Galacticos Ltd / SNI Digital Ltd / Benguy Escrow Company Ltd** — the corporate/infrastructure cluster BlackCore's tooling traces to (Tel Aviv).
 - **ACT-2026-TEAMJORGE** (Team Jorge / Tal Hanan) — *comparison only*, no established operational link. Same genre (Israeli influence-for-hire, avatar/bot tooling, election clients); useful as an analytic analogue.
-- **ACT-2026-MANASSEHCHORUS** (MANASSEH CHORUS / Clock Tower X) — *methodological comparison only*, no established operational link and no shared-attribution claim. Contrasts an overt, FARA-registered US influencer operation run by Brad Parscale with BlackCore's covert fabrication vendor model. Because BlackCore's own commissioning client is unattributed (assessed at low confidence), the comparison is about method, not a common sponsor or objective.
 - **Black Cube** — *explicitly NOT related.* Different, older Israeli private-intelligence firm; named here only to prevent conflation.
 
 ---
@@ -250,6 +248,7 @@ Anchored on the **Haaretz/Libération joint technical investigation** (high fact
 | 2026-06-20 | Initial profile created at `tentative` / attribution `moderate`. Worked example for the actor-profile format. |
 | 2026-07-14 | Added reciprocal cross-link to ACT-2026-MANASSEHCHORUS (MANASSEH CHORUS / Clock Tower X) as a comparison/counterpart; bumped `last_updated`. |
 | 2026-07-15 | Recast the MANASSEH CHORUS link as a methodological comparison only; removed the shared Israel-nexus/Gaza-objective claim (BlackCore's client is unattributed). |
+| 2026-07-16 | Removed the MANASSEH CHORUS cross-reference entirely from `related_actors` and the Relationships section (de-linked). |
 
 ---
 
