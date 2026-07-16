@@ -10,7 +10,7 @@ profile_status: tentative
 attribution_confidence: moderate
 first_observed: 2026-03
 last_active: 2026-06
-last_updated: 2026-06-20
+last_updated: 2026-07-14
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, data-harvesting]
 target_sectors: [elections, political-candidates, civil-society, pro-palestine-advocacy]
@@ -29,6 +29,7 @@ related_sitreps:
   - SITREP:2026-06-blackcore-france-elections
 related_actors:
   - ACT-2026-TEAMJORGE
+  - ACT-2026-MANASSEHCHORUS
 source_count: 14
 admiralty_high_water: B2
 analyst: "Aunoo Intelligence"
@@ -216,6 +217,7 @@ Fake pro-Palestinian aid charity (web + social + paid Meta ads) built to harvest
 
 - **Galacticos Ltd / SNI Digital Ltd / Benguy Escrow Company Ltd** — the corporate/infrastructure cluster BlackCore's tooling traces to (Tel Aviv).
 - **ACT-2026-TEAMJORGE** (Team Jorge / Tal Hanan) — *comparison only*, no established operational link. Same genre (Israeli influence-for-hire, avatar/bot tooling, election clients); useful as an analytic analogue.
+- **ACT-2026-MANASSEHCHORUS** (MANASSEH CHORUS / Clock Tower X) — *comparison / counterpart*, no established operational link. Shares the Israel nexus and the Gaza information-war objective but inverts the method: an overt, FARA-registered US influencer operation run by Brad Parscale versus BlackCore's covert fabrication vendor. Useful as the "overt contract" bookend to BlackCore's covert model.
 - **Black Cube** — *explicitly NOT related.* Different, older Israeli private-intelligence firm; named here only to prevent conflation.
 
 ---
@@ -246,6 +248,7 @@ Anchored on the **Haaretz/Libération joint technical investigation** (high fact
 | Date | Change |
 | :-- | :-- |
 | 2026-06-20 | Initial profile created at `tentative` / attribution `moderate`. Worked example for the actor-profile format. |
+| 2026-07-14 | Added reciprocal cross-link to ACT-2026-MANASSEHCHORUS (MANASSEH CHORUS / Clock Tower X) as a comparison/counterpart; bumped `last_updated`. |
 
 ---
 
