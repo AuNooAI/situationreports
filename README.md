@@ -29,8 +29,11 @@ This repository holds two linked products:
 **Pro-AI influence operations and the "foreign influence" counter-narrative against data-center opposition** — 2 July 2026
 [Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/)
 
-**AfD "Alternita": a party-run AI system for mass-producing far-right "rage bait"** — 10 July 2026
-[Read the report »](reports/2026-07-afd-alternita-ai-ragebait/sitrep.md)
+**AfD "Alternita" (PANZER PARROT): a party-run AI system for mass-producing far-right "rage bait"** — 10 July 2026
+[Read the report »](reports/2026-07-afd-alternita-ai-ragebait/sitrep.md) · [Actor profile »](actors/ACT-2026-PANZERPARROT/profile.md)
+
+**MANASSEH CHORUS (Clock Tower X): a FARA-registered, Israel-funded influencer operation aimed at the American right** — 14 July 2026
+[Read the report »](reports/2026-07-manasseh-chorus-parscale-israel/sitrep.md) · [Actor profile »](actors/ACT-2026-MANASSEHCHORUS/profile.md)
 
 ## Browse
 
@@ -38,7 +41,7 @@ This repository holds two linked products:
 
 **Threat actor profiles** live under [`actors/`](actors/), one folder per actor. Start with the [actor registry](actors/registry.md) for an index, or the [profile schema](actors/SCHEMA.md) for the format. Actors and reports are cross-linked by stable IDs (e.g. `ACT-2026-BLACKCORE`) in YAML front-matter, so an event and the actor behind it point at each other.
 
-Currently profiled: **BlackCore / AMON MIRAGE** (`ACT-2026-BLACKCORE`) and **Team Jorge / AHAB PUPPETEER** (`ACT-2026-TEAMJORGE`).
+Currently profiled: **BlackCore / AMON MIRAGE** (`ACT-2026-BLACKCORE`), **Team Jorge / AHAB PUPPETEER** (`ACT-2026-TEAMJORGE`), **AfD Alternita / PANZER PARROT** (`ACT-2026-PANZERPARROT`), and **Clock Tower X / MANASSEH CHORUS** (`ACT-2026-MANASSEHCHORUS`).
 
 ## About Aunoo
 
