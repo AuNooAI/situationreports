@@ -9,7 +9,7 @@ profile_status: tentative
 attribution_confidence: high
 first_observed: 2025-09
 last_active: 2026-07
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, reputation-management]
 target_sectors: [public-opinion, us-conservatives, ai-information-systems]
@@ -27,11 +27,8 @@ aunoo_tactic_vector:
 related_sitreps:
   - SITREP:2026-07-manasseh-chorus-parscale-israel
 related_actors:
-  - id: ACT-2026-BLACKCORE
-    relationship: comparison        # comparison | shared-infra | lineage | operational-link
-    note: "Methodological comparison only: overt FARA-registered contract network vs covert fabrication vendor. No operational link and no shared-attribution claim; BlackCore's commissioning client is unattributed."
   - id: ACT-2026-TEAMJORGE
-    relationship: comparison
+    relationship: comparison        # comparison | shared-infra | lineage | operational-link
     note: "Same broad genre of influence-for-hire; different tradecraft and nexus. No operational link."
 source_count: 3
 admiralty_high_water: B2

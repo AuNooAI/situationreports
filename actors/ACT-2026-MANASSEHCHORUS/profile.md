@@ -10,7 +10,7 @@ profile_status: tentative
 attribution_confidence: high
 first_observed: 2025-09
 last_active: 2026-07
-last_updated: 2026-07-15
+last_updated: 2026-07-16
 tlp: CLEAR
 motivations: [contract-hire, geopolitical-narrative, reputation-management]
 target_sectors: [public-opinion, us-conservatives, ai-information-systems]
@@ -28,11 +28,8 @@ aunoo_tactic_vector:
 related_sitreps:
   - SITREP:2026-07-manasseh-chorus-parscale-israel
 related_actors:
-  - id: ACT-2026-BLACKCORE
-    relationship: comparison        # comparison | shared-infra | lineage | operational-link
-    note: "Methodological comparison only: overt FARA-registered contract network vs covert fabrication vendor. No operational link and no shared-attribution claim; BlackCore's commissioning client is unattributed."
   - id: ACT-2026-TEAMJORGE
-    relationship: comparison
+    relationship: comparison        # comparison | shared-infra | lineage | operational-link
     note: "Same broad genre of influence-for-hire; different tradecraft and nexus. No operational link."
 source_count: 3
 admiralty_high_water: B2
@@ -136,7 +133,6 @@ Structured observables are in `indicators.yaml` (`IOC-1`…). In summary: the fi
 
 ## Relationships
 
-- **ACT-2026-BLACKCORE (BlackCore / AMON MIRAGE)** — methodological comparison only. Contrasts an overt, FARA-registered contract network with a covert fabrication vendor. No established operational link, and no shared-attribution claim: BlackCore's commissioning client is unattributed (assessed at low confidence in its own profile), so this comparison concerns method, not a common sponsor or objective.
 - **ACT-2026-TEAMJORGE (Team Jorge)** — comparison only; same broad genre of influence-for-hire, different tradecraft and nexus. No operational link.
 
 ## Detection & monitoring guidance (Aunoo platform)
@@ -157,6 +153,7 @@ Anchored on a single principal investigation (TIME) working from primary FARA do
 | :-- | :-- |
 | 2026-07-14 | Initial profile created at `tentative` / attribution `high`. Code name MANASSEH CHORUS assigned. |
 | 2026-07-15 | Evidentiary review: softened mechanism language to reported/alleged; recast BlackCore as methodological comparison only (removed shared-nexus/objective claim); added JD Vance (15 Jul) political-reaction update; clarified single-principal-investigation sourcing. |
+| 2026-07-16 | Removed the BlackCore cross-reference entirely from `related_actors` and the Relationships section (de-linked; no comparison retained). |
 
 ## Sources
 
