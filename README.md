@@ -18,16 +18,16 @@ This repository holds two linked products:
 ## Latest
 
 **US export-control suspension of Anthropic's Fable 5 and Mythos 5** — 14 June 2026
-[Read the report »](reports/2026-06-anthropic-fable-mythos-export-ban/)
+[Read the report »](reports/2026-06-anthropic-fable-mythos-export-ban/sitrep.md)
 
 **BlackCore (AMON MIRAGE): Israeli firm and the 2026 French election interference campaign** — 20 June 2026
-[Read the report »](reports/2026-06-blackcore-france-elections/) · [Actor profile »](actors/ACT-2026-BLACKCORE/profile.md)
+[Read the report »](reports/2026-06-blackcore-france-elections/sitrep.md) · [Actor profile »](actors/ACT-2026-BLACKCORE/profile.md)
 
 **Fabricated Jeff Bezos quote on prioritising AI water use over humans** — 22 June 2026
-[Read the report »](reports/2026-06-bezos-fabricated-ai-water-quote/) — a misinformation incident (assessed LLM hallucination), not a coordinated actor.
+[Read the report »](reports/2026-06-bezos-fabricated-ai-water-quote/sitrep.md) — a misinformation incident (assessed LLM hallucination), not a coordinated actor.
 
 **Pro-AI influence operations and the "foreign influence" counter-narrative against data-center opposition** — 2 July 2026
-[Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/)
+[Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/sitrep.md)
 
 **AfD "Alternita" (PANZER PARROT): a party-run AI system for mass-producing far-right "rage bait"** — 10 July 2026
 [Read the report »](reports/2026-07-afd-alternita-ai-ragebait/sitrep.md) · [Actor profile »](actors/ACT-2026-PANZERPARROT/profile.md)
@@ -37,7 +37,7 @@ This repository holds two linked products:
 
 ## Browse
 
-**Situation reports** live under [`reports/`](reports/), one folder per event. Each includes the situation report, a shareable bulletin, and a web version.
+**Situation reports** live under [`reports/`](reports/), one folder per event. Each folder contains the report itself as `sitrep.md`, and where produced, a shareable bulletin PDF and cover or timeline graphics.
 
 **Threat actor profiles** live under [`actors/`](actors/), one folder per actor. Start with the [actor registry](actors/registry.md) for an index, or the [profile schema](actors/SCHEMA.md) for the format. Actors and reports are cross-linked by stable IDs (e.g. `ACT-2026-BLACKCORE`) in YAML front-matter, so an event and the actor behind it point at each other.
 
