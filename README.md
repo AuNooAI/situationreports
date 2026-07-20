@@ -29,6 +29,9 @@ This repository holds two linked products:
 **Pro-AI influence operations and the "foreign influence" counter-narrative against data-center opposition** — 2 July 2026
 [Read the report »](reports/2026-07-pro-ai-influence-counter-narrative/sitrep.md)
 
+**The Onion's "Palantir Acquires Pentagon" satire misread as a market signal** — 2 July 2026
+[Read the report »](reports/2026-07-palantir-onion-pentagon-satire/sitrep.md) — satire misattribution, not a coordinated actor.
+
 **AfD "Alternita" (PANZER PARROT): a party-run AI system for mass-producing far-right "rage bait"** — 10 July 2026
 [Read the report »](reports/2026-07-afd-alternita-ai-ragebait/sitrep.md) · [Actor profile »](actors/ACT-2026-PANZERPARROT/profile.md)
 
