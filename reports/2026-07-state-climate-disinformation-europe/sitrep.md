@@ -19,7 +19,7 @@ The evidentiary weight is uneven. The existence and behaviour of the specific ve
 
 The account below is drawn from France24's reporting on the IRIS study, with independent corroboration where noted.
 
-The thesis. IRIS argues that information warfare fastens onto issues that already divide societies, and that climate has become one of them in Europe. Extreme-weather events are described in the report as a "blessing" for that work, because they let an actor play on fear with little effort. The through-line target is European climate and energy policy, since both Russia and the United States are fossil-fuel exporters that would benefit from weaker EU decarbonisation.
+The thesis. IRIS argues that information warfare fastens onto issues that already divide societies, and that climate has become one of them in Europe. Extreme-weather events are described in the report as a "blessing" for that work, because they let an actor play on fear with little effort. The standing target is European climate and energy policy, since both Russia and the United States are fossil-fuel exporters that would benefit from weaker EU decarbonisation.
 
 Russia. IRIS characterises Russian climate disinformation as largely concealed rather than overt. Russia Today has been banned in the EU since 2022, so the content travels through state-aligned channels instead. The report points to Portal Kombat, a network that France's Viginum service exposed in February 2024. Viginum described it as roughly 193 automated portals that republish and amplify pro-Russian material rather than producing original content, built on infrastructure tied to a Crimea-based firm, and expanding across EU member states after its exposure. France24 cites the 2024 Valencia floods in Spain, which killed more than 200 people, as an example: IRIS attributes some of the surrounding disinformation, including false emergency numbers and inflated casualty figures, to Russian sources amplifying content already circulating, with the effect of eroding trust in authorities.
 
@@ -27,7 +27,7 @@ United States. IRIS characterises US-linked climate disinformation as more overt
 
 China. The report places China in a narrower, defensive posture. It does not deny that climate change is real or serious, but promotes narratives that foreground its own climate response and shift responsibility toward Western nations. IRIS notes points of convergence with Russian messaging, and says China also engaged during the 2023 Maui wildfires and the 2024 Spain floods.
 
-Illustrative tactics. France24 opens with a pro-Russian account promoting the long-running HAARP conspiracy theory, which falsely claims a US ionospheric research programme can engineer heatwaves. IRIS also cites a 2023 Russian campaign that pushed the false claim the US government was funding Ukraine instead of Maui wildfire victims. Both are examples of grafting a geopolitical grievance onto a live weather disaster.
+Illustrative tactics. France24 opens with a pro-Russian account promoting the long-running HAARP conspiracy theory, which falsely claims a US ionospheric research programme can engineer heatwaves. IRIS also cites a 2023 Russian campaign that pushed the false claim the US government was funding Ukraine instead of Maui wildfire victims. In both cases a geopolitical claim was attached to a live weather disaster.
 
 ## Key facts at a glance
 
@@ -52,7 +52,7 @@ Illustrative tactics. France24 opens with a pro-Russian account promoting the lo
 | Oct 2024 | Valencia floods kill more than 200; disinformation amplifies false numbers | IRIS's central event case study |
 | Dec 2024 | Heartland Institute opens its UK/Europe office in London | US-aligned climate-policy influence lands in Europe |
 | May 2026 | IRIS publishes its climate-disinformation report | The assessment itself |
-| Jul 2026 | France's third major heatwave of the year; HAARP conspiracy recirculates; France24 reports on the IRIS study | Renewed exploitation and the reporting hook |
+| Jul 2026 | France's third major heatwave of the year; HAARP conspiracy recirculates; France24 reports on the IRIS study | Renewed exploitation; the study reaches public reporting |
 
 ## Positions of the parties
 
@@ -66,15 +66,15 @@ Illustrative tactics. France24 opens with a pro-Russian account promoting the lo
 
 ## Implications (second-order effects)
 
-The first effect is the securitisation of climate communication. Once climate disinformation is framed as information warfare, the response moves toward counter-interference agencies and defence ministries. That is analytically reasonable for a documented foreign network, but it carries the same risk visible in other influence disputes: that legitimate domestic climate skepticism or ordinary policy argument gets swept into a national-security frame.
+Framing climate disinformation as information warfare moves the response toward counter-interference agencies and defence ministries. For a documented foreign network such as Portal Kombat that is appropriate. The risk is that domestic climate skepticism or ordinary policy argument gets pulled into the same national-security frame.
 
-The second effect is the exploitation of disaster windows. The recurring pattern across Maui, Valencia and the 2026 heatwaves is that a live emergency, when official information is scarce and public fear is high, is the moment disinformation travels fastest. This is a predictable, calendar-independent vulnerability that rises with the frequency of extreme-weather events.
+Disinformation concentrated in the hours after each disaster. Across Maui, Valencia and the 2026 heatwaves, false claims spread fastest while official information was scarce and public fear was high. This vulnerability recurs with every extreme-weather event, and those events are becoming more frequent.
 
-The third effect is the blurring of overt lobbying and covert operations. IRIS places a concealed automated network (Portal Kombat) and an openly branded advocacy think tank (Heartland) under the same "climate disinformation" heading. Those are different phenomena with different legal and democratic status, and treating them as equivalent is where the report is most open to challenge.
+IRIS places a concealed automated network (Portal Kombat) and an openly branded advocacy think tank (Heartland) under the same "climate disinformation" heading. The two differ in legal and democratic status, and the report treats them as one category.
 
 ## Significance
 
-This is a landscape assessment. Its value is in naming the vehicles and the disaster-exploitation pattern; it does not prove effect. The independently corroborated elements are the documented channels: Viginum's Portal Kombat investigation, and Heartland's public European expansion. The weakest elements are the impact on European opinion, which is asserted, and the equivalence the report draws between covert networks and overt advocacy.
+This is a thematic assessment covering multiple actors and events. Its value is in naming the vehicles and the disaster-exploitation pattern; it does not prove effect. The independently corroborated elements are the documented channels: Viginum's Portal Kombat investigation, and Heartland's public European expansion. The weakest elements are the impact on European opinion, which is asserted, and the equivalence the report draws between covert networks and overt advocacy.
 
 **Assessment.** The report is credible on the existence and behaviour of the named vehicles and on the event-exploitation pattern, both of which have independent support. Its broader causal claim, that this activity is a meaningful strategic lever against European cohesion, is a reasonable but unproven interpretation. **Confidence: high on the existence of the documented vehicles and the disaster-window pattern; moderate on state direction of the specific climate narratives; low on measurable effect on European public opinion.**
 
