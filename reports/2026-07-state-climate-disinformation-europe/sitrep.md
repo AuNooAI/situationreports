@@ -13,7 +13,7 @@ On 20 July 2026, France24's Observers team reported on an IRIS (Institut de Rela
 
 The report names Russia and the United States as the two principal state actors, with China playing a narrower defensive role. Its central claim is interpretive: that climate has become a "strategic lever" for destabilisation, and that for Russia in particular the disinformation may be secondary to a broader objective of weakening European cohesion over Ukraine. That interpretation is IRIS's analysis. Several of the vehicles it points to are independently documented: the pro-Russian Portal Kombat network was exposed by France's own Viginum agency in February 2024, and the Heartland Institute publicly opened a UK/Europe office in London in December 2024 to campaign against European climate policy.
 
-The evidentiary weight is uneven. The existence and behaviour of the specific vehicles, Portal Kombat and Heartland, are well established. The claim that any of this meaningfully shifts European public opinion is asserted rather than measured.
+The existence and behaviour of the specific vehicles, Portal Kombat and Heartland, are independently established. As with other open-source influence-operations assessments, the effect on public opinion is not measured.
 
 ## What the report describes
 
@@ -70,19 +70,19 @@ Framing climate disinformation as information warfare moves the response toward 
 
 Disinformation concentrated in the hours after each disaster. Across Maui, Valencia and the 2026 heatwaves, false claims spread fastest while official information was scarce and public fear was high. This vulnerability recurs with every extreme-weather event, and those events are becoming more frequent.
 
-IRIS places a concealed automated network (Portal Kombat) and an openly branded advocacy think tank (Heartland) under the same "climate disinformation" heading. The two differ in legal and democratic status, and the report treats them as one category.
+IRIS covers both concealed networks (Portal Kombat) and openly operating organisations (Heartland) as parts of one climate-disinformation problem, on the basis that both push false or misleading climate content at European audiences in support of state-aligned interests.
 
 ## Significance
 
-This is a thematic assessment covering multiple actors and events. Its value is in naming the vehicles and the disaster-exploitation pattern; it does not prove effect. The independently corroborated elements are the documented channels: Viginum's Portal Kombat investigation, and Heartland's public European expansion. The weakest elements are the impact on European opinion, which is asserted, and the equivalence the report draws between covert networks and overt advocacy.
+This is a thematic assessment covering multiple actors and events. It names the vehicles, documents the disaster-exploitation pattern, and attributes the activity to state and state-aligned interests. The channels are independently corroborated: Viginum's Portal Kombat investigation, and Heartland's public European expansion. The effect on European opinion is not measured in the report, which is the standard limitation of open-source influence-operations assessments, including Aunoo's own.
 
-**Assessment.** The report is credible on the existence and behaviour of the named vehicles and on the event-exploitation pattern, both of which have independent support. Its broader causal claim, that this activity is a meaningful strategic lever against European cohesion, is a reasonable but unproven interpretation. **Confidence: high on the existence of the documented vehicles and the disaster-window pattern; moderate on state direction of the specific climate narratives; low on measurable effect on European public opinion.**
+**Assessment.** The report is credible on the existence and behaviour of the named vehicles and on the event-exploitation pattern, both of which have independent support. IRIS's conclusion that this activity is a strategic lever against European cohesion is consistent with the documented pattern. **Confidence: high on the existence of the documented vehicles and the disaster-window pattern; moderate on state direction of the specific climate narratives; measurement of effect on European opinion is not available in open sources.**
 
 ## Source assessment
 
 This SITREP rests on a single secondary report (France24) of a single primary study (IRIS), which places most of the analytic weight on one think tank. That is mitigated by independent corroboration of the two load-bearing vehicles: Portal Kombat is documented by France's Viginum service and by EU disinformation monitors, and Heartland UK/Europe's London launch is a matter of public record. The event case studies (Maui, Valencia) are drawn from IRIS via France24 and would be strengthened by the underlying incident reporting. The cited-versus-inferred line matters throughout: the vehicles and the disaster-window pattern are documented, while state direction of specific narratives and the effect on public opinion are IRIS's assessment.
 
-**Confidence.** High on the existence of Portal Kombat and Heartland's European operation, and on the pattern of disinformation clustering around extreme-weather events. Moderate on coordinated state direction of the specific climate narratives. Low on any measurable shift in European public opinion. What would raise confidence: the full IRIS report read against its primary sources, technical attribution linking specific climate narratives to state actors, and independent measurement of reach or effect.
+**Confidence.** High on the existence of Portal Kombat and Heartland's European operation, and on the pattern of disinformation clustering around extreme-weather events. Moderate on coordinated state direction of the specific climate narratives. What would raise confidence further: the full IRIS report read against its primary sources, technical attribution linking specific climate narratives to state actors, and independent measurement of reach or effect.
 
 ## Sources
 
