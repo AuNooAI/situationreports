@@ -4,6 +4,7 @@
 **As of:** 20 July 2026
 **Prepared from:** France24 / FRANCE 24 Observers reporting (20 July 2026) on the IRIS report "Climate Disinformation and Information Warfare: State Interference and Security Implications" (May 2026), with independent corroboration of the named vehicles
 **Subject:** A French think-tank assessment that state actors, principally Russia and the United States, exploit extreme-weather events and European climate policy to spread disinformation, and the documented vehicles through which that content travels
+**Tracked actors:** [ACT-2026-PORTALKOMBAT / POTEMKIN PORTAL](../../actors/ACT-2026-PORTALKOMBAT/profile.md) · [ACT-2026-HEARTLAND / Heartland Institute](../../actors/ACT-2026-HEARTLAND/profile.md)
 
 ---
 
