@@ -38,6 +38,9 @@ This repository holds two linked products:
 **MANASSEH CHORUS (Clock Tower X): a FARA-registered, Israel-funded influencer operation aimed at the American right** — 14 July 2026
 [Read the report »](reports/2026-07-manasseh-chorus-parscale-israel/sitrep.md) · [Actor profile »](actors/ACT-2026-MANASSEHCHORUS/profile.md)
 
+**State-actor climate disinformation targeting Europe (IRIS assessment)** — 20 July 2026
+[Read the report »](reports/2026-07-state-climate-disinformation-europe/sitrep.md)
+
 ## Browse
 
 **Situation reports** live under [`reports/`](reports/), one folder per event. Each folder contains the report itself as `sitrep.md`, and where produced, a shareable bulletin PDF and cover or timeline graphics.
