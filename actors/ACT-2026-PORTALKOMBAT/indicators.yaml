@@ -1,0 +1,38 @@
+# Structured observables for ACT-2026-PORTALKOMBAT (POTEMKIN PORTAL)
+# Source: Viginum technical report (Feb 2024) and follow-on monitoring.
+indicators:
+  - id: IOC-1
+    type: infrastructure
+    value: "Portal fleet: 193 news-styled domains at exposure (Feb 2024); expanded since"
+    confidence: high
+    source: Viginum
+  - id: IOC-2
+    type: organisation
+    value: "TigerWeb (Crimea) — site creation and administration"
+    confidence: high
+    source: Viginum
+  - id: IOC-3
+    type: behavioural
+    value: "No original content; automated republication of pro-Russian figures, Russian state media, and official communications"
+    confidence: high
+    source: Viginum
+  - id: IOC-4
+    type: behavioural
+    value: "Country- and language-targeted subdomains presenting as local news across EU member states"
+    confidence: high
+    source: Viginum / EDMO
+  - id: IOC-5
+    type: behavioural
+    value: "Near-simultaneous republication of identical content across nominally unrelated domains"
+    confidence: high
+    source: Viginum
+  - id: IOC-6
+    type: behavioural
+    value: "Post-exposure domain replacement and expansion rather than shutdown"
+    confidence: high
+    source: Viginum / EDMO
+  - id: IOC-7
+    type: content
+    value: "Climate-event exploitation: false emergency numbers and casualty figures during the Oct 2024 Valencia floods; HAARP heatwave conspiracy (2026)"
+    confidence: moderate
+    source: IRIS via France24

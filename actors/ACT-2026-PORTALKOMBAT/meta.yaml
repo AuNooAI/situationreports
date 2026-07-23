@@ -1,0 +1,45 @@
+# Machine-readable actor record — mirrors profile.md front-matter.
+id: ACT-2026-PORTALKOMBAT
+name: Portal Kombat (Pravda network)
+codename: POTEMKIN PORTAL
+aliases: [Pravda network, Portal Combat]
+actor_type: state-aligned-amplification-network
+country_nexus: [Russia]
+operational_status: active
+profile_status: confirmed
+attribution_confidence: high
+first_observed: 2022-02
+last_active: 2026-07
+last_updated: 2026-07-20
+tlp: CLEAR
+motivations: [geopolitical-narrative, destabilisation]
+target_sectors: [public-opinion, elections, climate-policy, ukraine-support]
+target_geographies: [FR, EU, UA, US]
+frameworks: [DISARM, AUNOO-8T]
+aunoo_tactic_vector:
+  legitimacy_inversion: 3
+  severity_minimization: 1
+  category_reframing: 1
+  whataboutism: 2
+  identity_reframing: 0
+  motive_substitution: 1
+  agent_swap: 2
+  cause_effect_reversal: 1
+related_sitreps:
+  - SITREP:2026-07-state-climate-disinformation-europe
+related_actors: []
+entities:
+  - name: TigerWeb
+    kind: company
+    status: confirmed
+    link_to_actor: confirmed
+    note: "Crimea-based web-development firm; Viginum ties it to creation and administration of the portal fleet."
+  - name: Yevgeny Shevchenko
+    kind: person
+    status: confirmed
+    link_to_actor: confirmed
+    note: "TigerWeb founder, per Viginum."
+source_count: 4
+admiralty_high_water: A1
+analyst: "Aunoo Intelligence"
+review_status: published
