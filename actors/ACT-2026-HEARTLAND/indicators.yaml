@@ -1,0 +1,28 @@
+# Structured observables for ACT-2026-HEARTLAND
+# This actor operates openly; indicators are tracking references, not unmasking IOCs.
+indicators:
+  - id: IOC-1
+    type: organisation
+    value: "Heartland UK/Europe, London — launched 17 Dec 2024; executive director Lois Perry"
+    confidence: high
+    source: Heartland announcement / E&E News
+  - id: IOC-2
+    type: behavioural
+    value: "Coordination with politicians from Austria, Hungary, Poland against renewable subsidies and EU environmental legislation"
+    confidence: high
+    source: DeSmog
+  - id: IOC-3
+    type: behavioural
+    value: "Brussels engagement with aligned MEPs against the Nature Restoration Law and Corporate Sustainability Due Diligence Directive"
+    confidence: high
+    source: DeSmog
+  - id: IOC-4
+    type: organisation
+    value: "Polish affiliate climate-skeptic group launched May 2026 by a Reform UK adviser"
+    confidence: high
+    source: DeSmog
+  - id: IOC-5
+    type: content
+    value: "Output consistently minimises severity and human causation of climate change; opposes the European Green Deal"
+    confidence: high
+    source: Heartland publications / IRIS

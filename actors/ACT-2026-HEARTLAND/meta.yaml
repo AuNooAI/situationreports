@@ -1,0 +1,45 @@
+# Machine-readable actor record — mirrors profile.md front-matter.
+id: ACT-2026-HEARTLAND
+name: Heartland Institute (incl. Heartland UK/Europe)
+codename: null
+aliases: [Heartland UK/Europe]
+actor_type: influence-advocacy-network
+country_nexus: [United States]
+operational_status: active
+profile_status: confirmed
+attribution_confidence: high
+first_observed: 1984
+last_active: 2026-07
+last_updated: 2026-07-20
+tlp: CLEAR
+motivations: [policy-influence, climate-policy-opposition]
+target_sectors: [climate-policy, energy-policy, eu-legislation]
+target_geographies: [US, GB, EU, PL, AT, HU]
+frameworks: [AUNOO-8T]
+aunoo_tactic_vector:
+  legitimacy_inversion: 1
+  severity_minimization: 3
+  category_reframing: 2
+  whataboutism: 0
+  identity_reframing: 0
+  motive_substitution: 1
+  agent_swap: 0
+  cause_effect_reversal: 1
+related_sitreps:
+  - SITREP:2026-07-state-climate-disinformation-europe
+related_actors: []
+entities:
+  - name: Heartland UK/Europe
+    kind: org
+    status: confirmed
+    link_to_actor: confirmed
+    note: "European arm, London, launched 17 Dec 2024; executive director Lois Perry."
+  - name: Lois Perry
+    kind: person
+    status: confirmed
+    link_to_actor: confirmed
+    note: "Executive director, Heartland UK/Europe."
+source_count: 5
+admiralty_high_water: B1
+analyst: "Aunoo Intelligence"
+review_status: published
