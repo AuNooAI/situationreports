@@ -39,7 +39,7 @@ This repository holds two linked products:
 [Read the report »](reports/2026-07-manasseh-chorus-parscale-israel/sitrep.md) · [Actor profile »](actors/ACT-2026-MANASSEHCHORUS/profile.md)
 
 **State-actor climate disinformation targeting Europe (IRIS assessment)** — 20 July 2026
-[Read the report »](reports/2026-07-state-climate-disinformation-europe/sitrep.md)
+[Read the report »](reports/2026-07-state-climate-disinformation-europe/sitrep.md) · [Portal Kombat profile »](actors/ACT-2026-PORTALKOMBAT/profile.md) · [Heartland profile »](actors/ACT-2026-HEARTLAND/profile.md)
 
 ## Browse
 
@@ -47,7 +47,7 @@ This repository holds two linked products:
 
 **Threat actor profiles** live under [`actors/`](actors/), one folder per actor. Start with the [actor registry](actors/registry.md) for an index, or the [profile schema](actors/SCHEMA.md) for the format. Actors and reports are cross-linked by stable IDs (e.g. `ACT-2026-BLACKCORE`) in YAML front-matter, so an event and the actor behind it point at each other.
 
-Currently profiled: **BlackCore / AMON MIRAGE** (`ACT-2026-BLACKCORE`), **Team Jorge / AHAB PUPPETEER** (`ACT-2026-TEAMJORGE`), **AfD Alternita / PANZER PARROT** (`ACT-2026-PANZERPARROT`), and **Clock Tower X / MANASSEH CHORUS** (`ACT-2026-MANASSEHCHORUS`).
+Currently profiled: **BlackCore / AMON MIRAGE** (`ACT-2026-BLACKCORE`), **Team Jorge / AHAB PUPPETEER** (`ACT-2026-TEAMJORGE`), **AfD Alternita / PANZER PARROT** (`ACT-2026-PANZERPARROT`), **Clock Tower X / MANASSEH CHORUS** (`ACT-2026-MANASSEHCHORUS`), **Portal Kombat / POTEMKIN PORTAL** (`ACT-2026-PORTALKOMBAT`), and the **Heartland Institute** (`ACT-2026-HEARTLAND`).
 
 ## About Aunoo
 
